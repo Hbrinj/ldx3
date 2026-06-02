@@ -47,6 +47,11 @@
    - Cost-per-interaction SLOs that fire back into agent context.
    - Anomalies in BubbleUp auto-converting into review-agent rules.
 
+### Costs / Trade-offs
+
+- The team is spending **more time triaging production** — they've had an **uptick of ~30% in production incidents**.
+- The team also spends more time **reducing slop**, but also uses the LLMs to **clean up tech debt, upgrade versions, etc.**
+
 ## Questions to Follow Up
 
 
