@@ -31,6 +31,7 @@
 - Your **CI should be faster than your coding session**.
 - **Skills and CLAUDE.md** become the substrate that defines how well the AIs perform.
 - Humans should be able to **push back on the PRs** — they should be able to look through the PR and stop it from creating bad PRs.
+- Just because you **can** do it with AI doesn't mean you **should**.
 
 ## Questions to Follow Up
 
