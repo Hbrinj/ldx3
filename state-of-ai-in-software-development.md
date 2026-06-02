@@ -34,6 +34,7 @@
 - **Dev ramp-up time has almost halved** — from **~80 days to ~30 days**.
 - **Engineering managers are shipping 4x more code than last quarter.**
 - **75% of designers and PMs also use AI code assistants.**
+- We're still tackling only the **initial part of the problem** — most of the time isn't spent on the bottleneck.
 
 
 ## Questions to Follow Up
