@@ -15,7 +15,7 @@
 
 - The talk's aim is to **share insights across 400 orgs**.
 - Engineering org sizes range from **50 to 10,000**.
-- **27.4% of code is AI-authored.**
+- **27.4% of code is AI-authored** — up **8% from Q4**.
 
 
 ## Questions to Follow Up
