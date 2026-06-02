@@ -2,5 +2,5 @@
 layout: default
 ---
 <p><a href="{{ '/' | relative_url }}">&larr; Back to index</a></p>
-<p class="metaline">{{ page.date | date: "%Y-%m-%d" }} &middot; {{ page.speaker }}</p>
+<p class="metaline">{{ page.date | date: "%Y-%m-%d" }} &middot; {{ page.speaker | escape }}</p>
 {{ content }}

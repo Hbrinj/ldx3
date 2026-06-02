@@ -2,6 +2,6 @@
 layout: default
 ---
 <p><a href="{{ '/' | relative_url }}">&larr; Back to index</a></p>
-<p class="metaline"><a href="{{ page.homepage }}">{{ page.homepage }}</a> &middot; seen at {{ page.seen_at }}</p>
-<p class="summary">{{ page.summary }}</p>
+<p class="metaline"><a href="{{ page.homepage | escape }}">{{ page.homepage | escape }}</a> &middot; seen at {{ page.seen_at | escape }}</p>
+<p class="summary">{{ page.summary | escape }}</p>
 {{ content }}
