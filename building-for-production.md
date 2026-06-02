@@ -21,6 +21,11 @@
 - Roughly **25–30% done by humans**, the next **~44% was AI**.
 - They aren't reworking the AI code.
 - **Swarmio** is roughly matching the raw Git messages — devs may not show "committed by Claude".
+- Preference seems to be toward **greenfield projects**.
+- Around **Feb 2026** they felt they had more trust — the same developers who used the tool prior started using AI more regularly.
+- **So how did they not explode the systems?**
+  - **Platform engineering practices** become more important — even more so than before.
+  - Companies with dysfunctions are **amplified** by AI, whereas ones with strong platforms are not.
 
 ## Questions to Follow Up
 
