@@ -32,6 +32,8 @@
 - **Skills and CLAUDE.md** become the substrate that defines how well the AIs perform.
 - Humans should be able to **push back on the PRs** — they should be able to look through the PR and stop it from creating bad PRs.
 - Just because you **can** do it with AI doesn't mean you **should**.
+- They would pull the **raw customer request from Slack into Linear**, closing the loop entirely with **end-to-end checks**.
+  - Example flow: write the PR → add telemetry → check it in QA → when it ships in the next release, verify the telemetry and software are working **in prod**.
 
 ## Questions to Follow Up
 
