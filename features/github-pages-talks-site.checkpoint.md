@@ -1,21 +1,24 @@
 # Checkpoint: github-pages-talks-site
 
 ## Status
-Step 1 — Plan — COMPLETE
+Step 2 — Implement — COMPLETE
 
 ## Completed steps
 - [x] Step 1 — Plan
-- [ ] Step 2 — Implement
+- [x] Step 2 — Implement
 
 ## Resumption notes
-- Plan file: `tasks/github-pages-talks-site.md` (15 decisions, 8 slices, 3 open questions).
-- Deferred items consolidated to `/TODO.md` under "From feature/github-pages-talks-site" (9 entries).
-- Open Questions to resolve during Step 2 implementation:
-  1. Tie-breaker for talks sharing the same date (recommend secondary sort by `title` asc).
-  2. Whether to commit `Gemfile.lock` (recommend commit it).
-  3. Actual GitHub username for the live-site URL in `_config.yml` and `README.md` (developer agent must ask the user when first needed; placeholder in plan is `<user>`).
-- Tech stack: Jekyll + Liquid (mostly markdown/YAML/HTML). For Step 2 the closest developer-agent fit is `shell-developer` (handles markdown + config + adjacent prose). Architecture impact: none — pure additive static-site setup.
-- Step 2 should begin on a feature branch `feature/github-pages-talks-site` per the workflow's non-negotiable rules (never write code on `main`).
+- Plan file: `tasks/github-pages-talks-site.md` (15 decisions, 8 slices, all 3 open questions resolved).
+- Resolved Open Questions used during implementation:
+  1. Tie-breaker for same-date talks: title ascending (implemented via stable group-by-date in `index.md`).
+  2. `Gemfile.lock`: gitignored.
+  3. GH username: `Houms` (live site `https://Houms.github.io/ldx3/`).
+- Implementation shipped: 8 slice commits + 2 reviewer-fix commits (sort stability, duplicate H1, HTML escaping of user content).
+- Deliberate deviation from plan recorded: vendor URL field renamed `url` → `homepage` to avoid colliding with Jekyll's `page.url` permalink. Plan Decisions 6, Slice 3, Slice 6, Slice 8 updated to reflect the ship name; the deviation is captured in Decision 6's trailing note.
+- Feature log row added to `features/all_features.md` with status `In Review`.
+- Branch `feature/github-pages-talks-site` is local-only — push gate awaits user approval.
+- `bundle exec jekyll build` exits 0 locally; only warning is the harmless "No GitHub API authentication" notice that goes away on the GH Pages build.
+- Coordinator review gates run: `code-reviewer` (via developer agent self-review) APPROVED on cycle 2; `general-reviewer` first-cycle issued 1 CRITICAL + 5 MAJOR findings, all addressed in this checkpoint commit; re-review pending.
 
 ## Last updated
 2026-06-02
