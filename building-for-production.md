@@ -51,6 +51,7 @@
 
 - The team is spending **more time triaging production** — they've had an **uptick of ~30% in production incidents**.
 - The team also spends more time **reducing slop**, but also uses the LLMs to **clean up tech debt, upgrade versions, etc.**
+- AI is enabling folks to carry out **side quests**.
 
 ## Questions to Follow Up
 
