@@ -31,5 +31,4 @@ exclude:
   - TODO.md
   - tasks/
   - features/
-  - vendor/
 

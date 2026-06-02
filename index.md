@@ -1,35 +1,39 @@
 ---
 title: "ldx3 — Talks & Vendors"
+description: "Conference talk notes and vendors-to-explore from LDX3."
 ---
-
-# ldx3 — Talks & Vendors
-
-Conference talk notes and vendors-to-explore from LDX3.
 
 {% comment %}
   Talks ordering: primary = date DESC (newest first); secondary = title ASC.
-  Liquid's `sort` is stable. To get title ASC within same-date groups after the
-  final reverse, we pre-sort by title DESC (sort then reverse), then sort by
-  date ASC (stable: keeps the title-DESC order for ties), then reverse the
-  whole list. The reverse flips dates to DESC and, because the within-date
-  order was DESC, also flips ties back to ASC. Net result: newest date first,
-  alphabetical (A→Z) within a date.
+
+  Liquid's `sort` filter calls Ruby's Array#sort with a comparator block,
+  which is NOT a stable sort, so chaining two `sort` calls cannot reliably
+  deliver a stable secondary key. Instead we:
+    1. Group talks by date (string-equal comparison).
+    2. Sort the date groups by their `name` (the date string) DESC.
+    3. Within each group, sort items by `title` ASC.
+  Because each within-group sort happens on a distinct key (title) with no
+  ties expected, stability doesn't matter inside the group.
 {% endcomment %}
-{% assign talks_by_title_desc = site.talks | sort: "title" | reverse %}
-{% assign talks_sorted = talks_by_title_desc | sort: "date" | reverse %}
+
+{% assign talks_by_date = site.talks | group_by_exp: "talk", "talk.date | date: '%Y-%m-%d'" %}
+{% assign date_groups_sorted = talks_by_date | sort: "name" | reverse %}
 {% assign vendors_sorted = site.vendors | sort: "title" %}
 
 ## Talks
 
 <ul>
-{% for talk in talks_sorted %}
+{% for date_group in date_groups_sorted %}
+  {% assign items_sorted = date_group.items | sort: "title" %}
+  {% for talk in items_sorted %}
   <li>
     <strong>{{ talk.date | date: "%Y-%m-%d" }}</strong> &middot;
-    <a href="{{ talk.url | relative_url }}">{{ talk.title }}</a> &middot;
-    {{ talk.speaker }}
+    <a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a> &middot;
+    {{ talk.speaker | escape }}
     <br>
-    <em>{{ talk.summary }}</em>
+    <em>{{ talk.summary | escape }}</em>
   </li>
+  {% endfor %}
 {% endfor %}
 </ul>
 
@@ -38,11 +42,11 @@ Conference talk notes and vendors-to-explore from LDX3.
 <ul>
 {% for vendor in vendors_sorted %}
   <li>
-    <a href="{{ vendor.url | relative_url }}">{{ vendor.title }}</a> &middot;
-    <a href="{{ vendor.homepage }}">{{ vendor.homepage }}</a> &middot;
-    seen at {{ vendor.seen_at }}
+    <a href="{{ vendor.url | relative_url }}">{{ vendor.title | escape }}</a> &middot;
+    <a href="{{ vendor.homepage | escape }}">{{ vendor.homepage | escape }}</a> &middot;
+    seen at {{ vendor.seen_at | escape }}
     <br>
-    <em>{{ vendor.summary }}</em>
+    <em>{{ vendor.summary | escape }}</em>
   </li>
 {% endfor %}
 </ul>
