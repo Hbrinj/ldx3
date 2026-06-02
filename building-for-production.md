@@ -64,6 +64,15 @@
    - AI makes spot-fixes so cheap that you keep reaching for them when systematic answers would be better.
    - Write-cost dropping doesn't make maintenance-cost drop with it.
 
+### Slide: Three things to take away
+
+1. **AI amplifies your existing practices**
+   - Going fast without autonomy, ownership, and feedback loops is enshittification.
+2. **Be deliberate about capacity allocation**
+   - Reinvest the new throughput in the platform substrate that lets you absorb more, not in marginal features.
+3. **"We didn't obviously break anything" is not success on its own**
+   - No one in this room is done. Including us.
+
 ## Questions to Follow Up
 
 
