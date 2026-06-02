@@ -55,6 +55,15 @@
 - **Code review** is catching bugs and creating **shared understanding**.
 - They've used AI to **build tooling to understand what AI is shipping** — lots of **feature flagging** occurring.
 
+### Slide: Where the sceptics are right (two concessions)
+
+1. **Bank-LOB engineering won't transfer**
+   - "You are not going to radically realign LOB engineering at a bank."
+   - What makes this work at Honeycomb is downstream of cultural conditions that don't exist at a regulated enterprise.
+2. **Spot-fix vs systematic-fix; complexity has a cost**
+   - AI makes spot-fixes so cheap that you keep reaching for them when systematic answers would be better.
+   - Write-cost dropping doesn't make maintenance-cost drop with it.
+
 ## Questions to Follow Up
 
 
