@@ -31,7 +31,8 @@
   - 💭 *My thought: more code, more complexity, more time savings required.*
 - Some engineers are still going through **Shadow AI** instead of the enterprise tools.
 - **Rust usage has gone up** — it's a very structured language.
-- **Dev ramp-up time has almost halved.**
+- **Dev ramp-up time has almost halved** — from **~80 days to ~30 days**.
+- **Engineering managers are shipping 4x more code than last quarter.**
 
 
 ## Questions to Follow Up
