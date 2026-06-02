@@ -33,6 +33,7 @@
 - **Rust usage has gone up** — it's a very structured language.
 - **Dev ramp-up time has almost halved** — from **~80 days to ~30 days**.
 - **Engineering managers are shipping 4x more code than last quarter.**
+- **75% of designers and PMs also use AI code assistants.**
 
 
 ## Questions to Follow Up
