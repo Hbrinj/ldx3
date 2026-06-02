@@ -30,6 +30,7 @@
 - **Larger companies use AI more frequently.**
   - 💭 *My thought: more code, more complexity, more time savings required.*
 - Some engineers are still going through **Shadow AI** instead of the enterprise tools.
+- **Rust usage has gone up** — it's a very structured language.
 
 
 ## Questions to Follow Up
