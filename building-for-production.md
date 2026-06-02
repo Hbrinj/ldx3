@@ -53,6 +53,7 @@
 - The team also spends more time **reducing slop**, but also uses the LLMs to **clean up tech debt, upgrade versions, etc.**
 - AI is enabling folks to carry out **side quests**.
 - **Code review** is catching bugs and creating **shared understanding**.
+- They've used AI to **build tooling to understand what AI is shipping** — lots of **feature flagging** occurring.
 
 ## Questions to Follow Up
 
