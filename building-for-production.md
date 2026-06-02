@@ -35,6 +35,18 @@
 - They would pull the **raw customer request from Slack into Linear**, closing the loop entirely with **end-to-end checks**.
   - Example flow: write the PR → add telemetry → check it in QA → when it ships in the next release, verify the telemetry and software are working **in prod**.
 
+### Slide: Closed-loop observability for agent work
+
+1. **Instrument the shipped code, not just the agent**
+   - Span attributes that link the running code back to the PR and agent session that created it.
+   - Not "tokens spent"; rather "this PR shipped Tuesday is the source of Wednesday's anomaly."
+2. **Production outcomes matter more than agent activity**
+   - Latency, error rate, cost, user behaviour on agent-shipped features.
+   - Did it work? What happened to real users?
+3. **Closed-loop: production signal feeds the next change**
+   - Cost-per-interaction SLOs that fire back into agent context.
+   - Anomalies in BubbleUp auto-converting into review-agent rules.
+
 ## Questions to Follow Up
 
 
