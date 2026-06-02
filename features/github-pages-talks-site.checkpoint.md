@@ -18,7 +18,7 @@ Step 2 — Implement — COMPLETE
 - Feature log row added to `features/all_features.md` with status `In Review`.
 - Branch `feature/github-pages-talks-site` is local-only — push gate awaits user approval.
 - `bundle exec jekyll build` exits 0 locally; only warning is the harmless "No GitHub API authentication" notice that goes away on the GH Pages build.
-- Coordinator review gates run: `code-reviewer` (via developer agent self-review) APPROVED on cycle 2; `general-reviewer` first-cycle issued 1 CRITICAL + 5 MAJOR findings, all addressed in this checkpoint commit; re-review pending.
+- Coordinator review gates run: `code-reviewer` (via developer agent self-review) APPROVED on cycle 2; `general-reviewer` cycle 1 issued 1 CRITICAL + 5 MAJOR findings (all addressed); `general-reviewer` cycle 2 APPROVED with only 1 MINOR + 2 SUGGESTIONs surfaced. Branch is ready for the coordinator's review gate.
 
 ## Last updated
 2026-06-02
