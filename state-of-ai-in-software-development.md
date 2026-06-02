@@ -4,6 +4,9 @@
 
 ## Speaker / Session
 
+- **Source report:** DX — AI-Assisted Engineering Q1 Impact Report
+  - https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf
+
 
 ## Key Takeaways
 
