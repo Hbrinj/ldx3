@@ -7,6 +7,9 @@ collections:
   talks:
     output: true
     permalink: /talks/:name/
+  vendors:
+    output: true
+    permalink: /vendors/:name/
 
 defaults:
   - scope:
@@ -14,6 +17,11 @@ defaults:
       type: talks
     values:
       layout: talk
+  - scope:
+      path: ""
+      type: vendors
+    values:
+      layout: vendor
 
 exclude:
   - Gemfile

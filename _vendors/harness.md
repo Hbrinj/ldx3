@@ -1,10 +1,11 @@
-# Vendor / Booth Notes
+---
+title: "Harness"
+homepage: "https://www.harness.io"
+summary: "AI Software Delivery Platform — best-of-breed modules (CD/CI, IaC, IDP, testing, AppSec, FinOps) unified by Harness AI."
+seen_at: "LDX3 2026-06-02"
+---
 
-> Vendors and booths encountered at conferences, extracted from individual talk notes for easier reference.
-
-## Harness — The Harness AI Software Delivery Platform
-
-> Booth flyer from [Building for Production](building-for-production.md) (2026-06-02). "Best-of-breed modules unified by Harness AI." Saved to research further. — www.harness.io/demo
+> Booth flyer from [building-for-production.md](building-for-production.md) (2026-06-02). "Best-of-breed modules unified by Harness AI." Saved to research further. — www.harness.io/demo
 
 **Modules:**
 - **DevOps for Velocity:** Continuous Delivery, Continuous Integration, Infrastructure as Code, Internal Developer Portal, Database DevOps, Artifact Registry
