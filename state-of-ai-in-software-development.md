@@ -29,6 +29,7 @@
 - **Traditional enterprises are using more AI** — primarily due to **structured rollouts**.
 - **Larger companies use AI more frequently.**
   - 💭 *My thought: more code, more complexity, more time savings required.*
+- Some engineers are still going through **Shadow AI** instead of the enterprise tools.
 
 
 ## Questions to Follow Up
