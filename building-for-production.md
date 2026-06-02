@@ -26,6 +26,9 @@
 - **So how did they not explode the systems?**
   - **Platform engineering practices** become more important — even more so than before.
   - Companies with dysfunctions are **amplified** by AI, whereas ones with strong platforms are not.
+- **Continuous deployment** becomes even more important — small changes should make it to production more frequently.
+- Their CI is **legible to AI** — they use **RWX**.
+- Your **CI should be faster than your coding session**.
 
 ## Questions to Follow Up
 
