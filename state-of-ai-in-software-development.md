@@ -36,6 +36,20 @@
 - **75% of designers and PMs also use AI code assistants.**
 - We're still tackling only the **initial part of the problem** — most of the time isn't spent on the bottleneck.
 
+### Slide: "Increasingly referred to as AI Readiness…"
+
+Characteristics of an AI-ready codebase:
+- Clear, accurate, well-structured documentation
+- Data structures with straightforward relations
+- Readable, manageable, modular code
+- Fast, reliable local and CI feedback loops
+- Stable (read: non-flaky) robust test suites
+
+**AI Readiness scorecard (tiered checks):**
+- **Bronze:** Defined owner · AGENT.md exists · README.md exists · Local development docs
+- **Silver:** >80% code coverage · Linter configured · Branch protection configured
+- **Gold:** Uses feature flags · Secret management configured · API schema documentation
+
 
 ## Questions to Follow Up
 
