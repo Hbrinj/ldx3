@@ -1,0 +1,16 @@
+title: "ldx3 — Talks & Vendors"
+description: "Conference talk notes and vendors-to-explore from LDX3."
+url: "https://Houms.github.io"
+baseurl: "/ldx3"
+
+collections: {}
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - TODO.md
+  - tasks/
+  - features/
+  - vendor/
+
