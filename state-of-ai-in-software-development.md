@@ -27,6 +27,8 @@
 - **Junior engineers use AI the most** — they don't have as many learned behaviours.
 - **Staff engineers use fewer tokens** for the same use case than junior engineers.
 - **Traditional enterprises are using more AI** — primarily due to **structured rollouts**.
+- **Larger companies use AI more frequently.**
+  - 💭 *My thought: more code, more complexity, more time savings required.*
 
 
 ## Questions to Follow Up
