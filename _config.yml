@@ -3,7 +3,17 @@ description: "Conference talk notes and vendors-to-explore from LDX3."
 url: "https://Houms.github.io"
 baseurl: "/ldx3"
 
-collections: {}
+collections:
+  talks:
+    output: true
+    permalink: /talks/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
 
 exclude:
   - Gemfile
