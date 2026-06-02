@@ -17,6 +17,12 @@
 - Engineering org sizes range from **50 to 10,000**.
 - **27.4% of code is AI-authored** — up **8% from Q4**.
 - **Daily AI users are shipping 60% more PRs.**
+- Regular users report:
+  - **+2.6%** increase in quality metrics
+  - **+2.2%** in maintainability
+  - Change failure rates **down 0.11%**
+- **Change confidence is volatile** — varies by company.
+  - 💭 *My thought: maybe a lot of the negative-leaning companies aren't considering some of their own org limitations and practices.*
 
 
 ## Questions to Follow Up
