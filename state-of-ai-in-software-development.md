@@ -10,6 +10,8 @@
 
 ## Notes
 
+- The talk's aim is to **share insights across 400 orgs**.
+
 
 ## Questions to Follow Up
 
