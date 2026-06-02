@@ -23,6 +23,7 @@
   - Change failure rates **down 0.11%**
 - **Change confidence is volatile** — varies by company.
   - 💭 *My thought: maybe a lot of the negative-leaning companies aren't considering some of their own org limitations and practices.*
+- Some companies are shipping as much as **50% more defects**.
 
 
 ## Questions to Follow Up
