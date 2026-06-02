@@ -86,7 +86,7 @@ It isn't free: ~30% more production incidents and more time spent triaging and r
 
 ### Harness — The Harness AI Software Delivery Platform
 
-> Booth flyer. "Best-of-breed modules unified by Harness AI." Saved for reference. — www.harness.io/demo
+> Booth flyer. "Best-of-breed modules unified by Harness AI." Saved to research further. — www.harness.io/demo
 
 **Modules:**
 - **DevOps for Velocity:** Continuous Delivery, Continuous Integration, Infrastructure as Code, Internal Developer Portal, Database DevOps, Artifact Registry
@@ -104,4 +104,6 @@ It isn't free: ~30% more production incidents and more time spent triaging and r
 
 
 ## Action Items
+
+- [ ] Research Harness AI Software Delivery Platform — request demo at www.harness.io/demo
 
