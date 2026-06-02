@@ -24,6 +24,9 @@
 - **Change confidence is volatile** — varies by company.
   - 💭 *My thought: maybe a lot of the negative-leaning companies aren't considering some of their own org limitations and practices.*
 - Some companies are shipping as much as **50% more defects**.
+- **Junior engineers use AI the most** — they don't have as many learned behaviours.
+- **Staff engineers use fewer tokens** for the same use case than junior engineers.
+- **Traditional enterprises are using more AI** — primarily due to **structured rollouts**.
 
 
 ## Questions to Follow Up
