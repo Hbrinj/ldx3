@@ -99,6 +99,14 @@
 
 - You need to create **bounded agents** — **data-limited** and **context-limited.**
 
+### Slide: Conclusion
+
+- **AI increases the demand for platforms.**
+- **Platform architecture is as important as software architecture.**
+- **Think three layers:** app, platform (capabilities), infra.
+- **Measure platform impact:** time to provision, upgrade, and offering.
+- **Build platforms to maximise flow of value.**
+
 ## Questions to Follow Up
 
 
