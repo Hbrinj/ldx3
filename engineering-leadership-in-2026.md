@@ -45,6 +45,17 @@
 - Where they're re-architecting, they're **moving away from pure managers to "player-coaches."**
 - Target: **5 layers max.**
 
+### Slide (survey data): "How have your roles and responsibilities changed over the past 12 months?"
+
+| Area | Increased | Stayed same | Decreased | Not sure |
+| --- | --- | --- | --- | --- |
+| **Scope and area of responsibility** | 63% | 33% | 1% | 3% |
+| **Hands-on technical work** (coding, pairing, code reviews) | 36% | 45% | 16% | 3% |
+| **Number of direct reports** | 29% | 50% | 16% | 5% |
+| **Teams reporting to me** | 22% | 61% | 9% | 7% |
+
+- 💭 Reading: **scope is expanding massively** (63% increased) while **direct reports / teams mostly hold or shrink** — leaders are being **stretched wider, not deeper.** Notably, **hands-on technical work increased for 36%** (the player-coach pull).
+
 
 ## Questions to Follow Up
 
