@@ -29,6 +29,7 @@
 - **How do I manage my platform and update it?**
   - Folks are **moving away from the front ends and going direct to MCPs.**
   - That means **you're creating problems without considerations for the platform.**
+- **Software creation is now faster than organisations can safely operationalise it.**
 
 
 ## Questions to Follow Up
