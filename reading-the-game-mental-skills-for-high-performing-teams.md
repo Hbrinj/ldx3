@@ -41,6 +41,9 @@
 - **Let yourself ask people for help.**
 - **Do you have a way to reset yourself** when you're not feeling your best?
 - **What's your mental skills game plan?**
+  - The plan helps you **handle pressure** and **focus / refocus.**
+  - It **must be practised.**
+  - It **turns uncertainty into a routine.**
 
 
 ## Questions to Follow Up
