@@ -45,6 +45,7 @@
 
 - **DORA metrics were the output; developer friction was the input.**
 - **Dashboards for every team, app, and org.**
+- Ran proper **Plan-Do-Check-Act (PDCA) cycles.**
 
 
 ## Questions to Follow Up
