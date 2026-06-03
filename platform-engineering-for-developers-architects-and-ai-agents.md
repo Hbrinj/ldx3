@@ -55,6 +55,8 @@
 - **Decrease risk** and **automate manual processes.**
 - To **increase efficiency**, you need to **manage and scale your digital platform resources as a fleet.**
 - Think about **platform metrics** — e.g. **how long does it take you to create and offer a new platform capability?**
+  - Often it's **months** in many orgs.
+  - Companion metric: **how long does it take you to provision an instance of a platform capability?**
 
 ## Questions to Follow Up
 
