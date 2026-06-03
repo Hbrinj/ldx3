@@ -56,6 +56,28 @@
 
 - 💭 Reading: **scope is expanding massively** (63% increased) while **direct reports / teams mostly hold or shrink** — leaders are being **stretched wider, not deeper.** Notably, **hands-on technical work increased for 36%** (the player-coach pull).
 
+### Slide (survey data): "Are you working more or less hours each week than this time last year?"
+
+By role, **More / About the same / Less** (2026 vs 2025):
+
+| Role | Year | More | Same | Less |
+| --- | --- | --- | --- | --- |
+| **Software Engineer** (junior/senior/full-stack) | 2026 | 35% | 54% | 11% |
+| | 2025 | 31% | 60% | ~9% |
+| **Advanced Engineer** (Staff, Principal, Distinguished) | 2026 | 53% | 40% | 7% |
+| | 2025 | 28% | 61% | 11% |
+| **Tech Lead** (no people mgmt) | 2026 | 44% | 49% | 7% |
+| | 2025 | 48% | 43% | ~9% |
+| **Manager of Engineers** | 2026 | 44% | 50% | 6% |
+| | 2025 | 38% | 57% | 5% |
+| **Manager of Managers** | 2026 | 46% | 49% | 5% |
+| | 2025 | 42% | 52% | 6% |
+| **CTO or Equivalent** | 2026 | 46% | 51% | 3% |
+| | 2025 | 52% | 38% | 10% |
+
+- 💭 **As scope increased, so did hours.** Biggest jump: **Advanced Engineers** (Staff/Principal) — "More" leapt from **28% → 53%** YoY.
+- (Some bars were blurry; values marked `~` are estimated.)
+
 
 ## Questions to Follow Up
 
