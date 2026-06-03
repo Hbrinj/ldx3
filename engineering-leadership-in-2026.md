@@ -9,6 +9,13 @@
 
 ## Key Takeaways
 
+- **The "Great Flattening" is real but mis-attributed:** orgs are collapsing layers and swapping headcount for GPUs, but the driver is as much **pandemic over-hiring correction** as AI.
+- **Org shape is shifting from Pyramid → Plateau:** ~5 layers/1:7 span/32% management → ~3 layers/1:25 span, with **ICs paired with AI agents** (Zuckerberg's "three layers between intern and CEO").
+- **Middle management is the squeeze point** — the level most often cut (43→65% over three years) — and EMs are being reshaped into **"player-coaches"/leads.**
+- **Scope is widening while reports flatten:** 63% report bigger scope; leaders stretched **wider, not deeper.** Hours rose with scope (Staff/Principal "more hours" jumped 28→53%).
+- **Leaders are moving back toward code** as AI tooling improved — even Director-level roles now advertised as **~75% hands-on coding** (Docplanner). **1 in 3 managers are eyeing a return to IC.**
+- Source: **LeadDev Engineering Leadership Report 2026** (out next week).
+
 
 ## Notes
 
