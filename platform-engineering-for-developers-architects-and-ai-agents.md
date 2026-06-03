@@ -13,6 +13,13 @@
 
 ## Notes
 
+### Premise
+
+- **AI increases the demand for platforms.**
+- **Platform architecture is as important as software architecture.**
+- Three layers: **App · Platform (capabilities) · Infrastructure.**
+- **Build platforms to maximise the flow of value** — do that and you'll **do well for both humans and agents.**
+
 
 ## Questions to Follow Up
 
