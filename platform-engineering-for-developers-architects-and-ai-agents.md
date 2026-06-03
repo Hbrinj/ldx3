@@ -57,6 +57,7 @@
 - Think about **platform metrics** — e.g. **how long does it take you to create and offer a new platform capability?**
   - Often it's **months** in many orgs.
   - Companion metric: **how long does it take you to provision an instance of a platform capability?**
+  - And: **how long does it take to do a controlled upgrade** — i.e. **time to compliance?**
 
 ## Questions to Follow Up
 
