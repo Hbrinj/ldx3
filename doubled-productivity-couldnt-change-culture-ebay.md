@@ -39,6 +39,7 @@
   - Problem they hit: the **platform team would produce new versions, but product engineering wouldn't adopt** them.
   - Turned out the **updates didn't solve product engineering's real problems**.
   - Fix: used a **team of evangelists** sent out to each area to **bring back problems to solve**.
+  - Ran a **weekly "team of teams" meeting** that enabled **natural but deliberate collaboration**.
 
 
 ## Questions to Follow Up
