@@ -75,6 +75,21 @@
     - 💭 *C1 seems to have this same problem.*
 - They became a **feature factory** — in a flat business you **don't want to tie your bonus to growth** when **execution on projects is the preference.**
 
+### Slide: "Culture as Foundation"
+
+- Source: **_Accelerate: The Science of DevOps_** — Nicole Forsgren, PhD; Jez Humble; Gene Kim.
+- Nicole Forsgren is the primary author. The book defines **three types of culture** (Westrum typology).
+- The speaker placed **eBay in the Pathological** column — *"the terrible... pathological fear."*
+
+| Pathological (Power-Oriented) | Bureaucratic (Rule-Oriented) | Generative (Performance-Oriented) |
+| --- | --- | --- |
+| Low cooperation | Modest cooperation | High cooperation |
+| Messengers "shot" | Messengers neglected | Messengers trained |
+| Responsibilities shirked | Narrow responsibilities | Risks are shared |
+| Bridging discouraged | Bridging tolerated | Bridging encouraged |
+| Failure leads to scapegoating | Failure leads to justice | Failure leads to inquiry |
+| Novelty crushed | Novelty leads to problems | Novelty implemented |
+
 
 ## Questions to Follow Up
 
