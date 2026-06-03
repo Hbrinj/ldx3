@@ -9,6 +9,14 @@
 
 ## Key Takeaways
 
+- **High-performing teams need more than individual skill** — they need to **adapt to each other.** Cathy's player→coach journey (ACL injury, then timing subs) is the frame; sports psychology is the toolkit.
+- **Coach the mental state, not just the work:** give feedback after a pause (not immediately), allow space for individual questions, be ready to re-explain, and accept that domain knowledge isn't always shared.
+- **Build for resilience and autonomy:** accept people have bad days (ask what they need), remove the fear of mistakes, encourage strengths, connect people, and help them work **without you there** ("manual of me").
+- **Happy teams are effective teams.**
+- **Manage yourself too:** notice the signals, be fully present, lead by example, and let yourself ask for help.
+- Have a **mental skills game plan** — practised, turning uncertainty into routine: **Visualise · Self-talk · Recognise & reset.**
+- For engineering managers: **spend less time on the work and more time on the people.**
+
 
 ## Notes
 
