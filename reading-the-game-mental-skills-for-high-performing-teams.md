@@ -25,6 +25,7 @@
 - **Be prepared to explain things more than once.**
 - Explain that the **domain knowledge is not always understood.**
 - Had to **accept what she couldn't control** — **focus on what you can influence.**
+- **Accept people will have a bad day** — but **ask what they need and how you can help.**
 
 
 ## Questions to Follow Up
