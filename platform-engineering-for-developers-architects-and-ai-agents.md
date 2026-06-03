@@ -58,6 +58,7 @@
   - Often it's **months** in many orgs.
   - Companion metric: **how long does it take you to provision an instance of a platform capability?**
   - And: **how long does it take to do a controlled upgrade** — i.e. **time to compliance?**
+- **AI agents will create more things** — so **what's your fleet management setup?**
 
 ## Questions to Follow Up
 
