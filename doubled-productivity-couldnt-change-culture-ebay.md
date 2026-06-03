@@ -136,9 +136,32 @@
 4. **Easier to Transform a Malleable Organization**
 
 
+## Background: the "DevOps playbook" (follow-up research)
+
+> Added after the talk — high-level context on what "the DevOps playbook" refers to.
+
+- It's not a single proprietary doc. Randy means the **well-established DevOps body of practice** popularised by the **DORA research program**, the book **_Accelerate_** (Forsgren/Humble/Kim), and **_The DevOps Handbook_** (Kim/Humble/Debois/Willis). The eBay "Velocity" initiative was a deliberate application of it.
+- **Measure with the four DORA metrics** (the talk's "output"):
+  - Deployment frequency · Lead time for change · Change failure rate · Time to restore service.
+  - Treat **developer friction/impediments as the leading "input"** that moves those outputs.
+- **Core technical capabilities** the playbook pushes:
+  - **Continuous integration** + **trunk-based development** (small batches into mainline, not long-lived branches).
+  - **Comprehensive automated testing** with fast, reliable feedback.
+  - **Deployment automation / regular deploys of every app**; loosely-coupled architecture so teams ship independently (maps to their library-over-shared-service and "domain mini-apps" moves — Conway's law).
+- **Organisational / cultural capabilities** (the part eBay couldn't fully crack):
+  - **Generative (Westrum) culture**, psychological safety, **loosely-coupled empowered teams** with real autonomy.
+  - **Lightweight change approval** instead of centralised, heavyweight (waterfall) sign-off.
+- **How eBay rolled it out:** focused on a **few pilot domains** (e.g. Selling, Search, Ads), specific apps within them, and **platform tracks** (build/CI/staging tooling + engineer education) — then expanded. Randy's own framing: it doubled productivity but stalled against pathological culture and exec-gated planning.
+- **Randy's public talks on exactly this** (good source material):
+  - "Doubling Engineering Productivity at eBay Through DevOps" (YOW! 2022) — https://www.youtube.com/watch?v=sjc8UZvlWYQ
+  - "Platform Engineering: Lessons from the Rise and Fall of eBay Velocity" (InfoQ/QCon) — https://www.infoq.com/presentations/platform-engineering-lessons/
+  - IT Revolution: "Driving a Tech-Led Reimagination through DevOps at eBay" — https://itrevolution.com/articles/driving-a-tech-led-reimagination-through-devops-at-ebay-2021/
+  - DORA capabilities catalogue — https://dora.dev/capabilities/
+
+
 ## Questions to Follow Up
 
-- Research the **DevOps playbook** that eBay executed.
+- ~~Research the **DevOps playbook** that eBay executed.~~ ✅ See "Background: the DevOps playbook" above.
 
 
 ## Action Items
