@@ -78,6 +78,7 @@
 - Recurring framing: he keeps referring to things as a **socio-technical system** (it's people + tech, not just tech).
 - 💭 *My thought: feels like we're standardising on how we build platforms.*
 - **Each team / group of teams must own their flow of value** — not just the application or the infrastructure layer.
+- **"You build it, you run it"** gets hard at scale: with **~50 teams**, management and upkeep become difficult.
 
 ## Questions to Follow Up
 
