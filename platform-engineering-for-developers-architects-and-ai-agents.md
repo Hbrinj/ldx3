@@ -60,6 +60,17 @@
   - And: **how long does it take to do a controlled upgrade** — i.e. **time to compliance?**
 - **AI agents will create more things** — so **what's your fleet management setup?**
 
+### Slide: Platform architecture — three tiers (his favourite model)
+
+| Layer | Why & How? | Who? | What | Example tech |
+| --- | --- | --- | --- | --- |
+| **Application Choreography** (Developer Control Plane) | "Code, ship, run" — sustainably deliver observable business value to customers (end users) | App developers, Full-stack engineers, DevOps, SREs | UI (Portals), CLI, Declarative config — *software dev lifecycle* | Backstage; Heroku CLI & Netflix Newt; Score; Radius & KubeVela (OAM) |
+| **Platform Orchestration** (Platform Orchestrator) | "Design, enable, optimize" — provide x-as-a-service, process automation, and fleet management to developers | Platform engineers, Engineering enablement, DevEx engineers, SREs | Platform API — *platform lifecycle* | Kratix Promise; Humanitec Resource Definition; Crossplane Compositions; Argo/Flux CRDs |
+| **Infrastructure Orchestration / Composition** (Infrastructure Control Plane) | "Plan, build, maintain" — provide infrastructure building blocks for consumption and composition to the platform team | Platform engineers, DevOps, Operators, Sysadmins, Infrastructure engineers | IaC, CRDs, Bash scripts — *infrastructure lifecycle* | Terraform; Crossplane; Ansible; Bash |
+
+- Source: https://syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure
+- 💭 The **three tiers are his favourites**: Application Choreography (software dev lifecycle) ↔ Platform Orchestration (platform lifecycle) ↔ Infrastructure Orchestration (infrastructure lifecycle).
+
 ## Questions to Follow Up
 
 
