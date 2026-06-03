@@ -46,6 +46,9 @@
 - **DORA metrics were the output; developer friction was the input.**
 - **Dashboards for every team, app, and org.**
 - Ran proper **Plan-Do-Check-Act (PDCA) cycles.**
+- They **identified impediments to flow.**
+  - Example conversation they had: *"I see you're deploying once or twice every month — what's going on?"*
+  - Mantra: **"Your impediments are my backlog."**
 
 
 ## Questions to Follow Up
