@@ -17,6 +17,7 @@
 - This is Randy's **proudest achievement** — but it also **got him fired**, due to the inability to change the **pathological culture**.
 - Context: **eBay has been a flat business** over the last few years.
 - The **US economy grew more than eBay's ecommerce** business did.
+  - The **economy grew 6x** in real money, while **eBay grew 0.91x**.
 
 
 ## Questions to Follow Up
