@@ -10,6 +10,14 @@
 
 ## Key Takeaways
 
+- **AI increases the demand for platforms** — software creation now outpaces orgs' ability to safely operationalise it, and agents going direct to MCPs create work without platform considerations.
+- **Platform architecture deserves the same rigour as software architecture.** Model it as three layers: **App Choreography · Platform Orchestration · Infrastructure Orchestration** (each with its own lifecycle, owners, and tooling — per Syntasso's model).
+- **Measure the platform like a product:** time to **offer** a new capability, time to **provision** an instance, and time to **controlled upgrade / compliance** — often months today, which won't survive agent-driven volume.
+- **Manage platform resources as a fleet** — "you build it, you run it" breaks down at ~50 teams; provide everything-as-a-service so teams own their **full flow of value**, not just app or infra.
+- It's a **socio-technical system** (people + tech). Team Topologies (4 topologies, 3 interaction modes, X-as-a-Service) is the organising lens.
+- For agents specifically: build **bounded agents** — **data-limited and context-limited.**
+- North star: **build platforms to maximise the flow of value** and you serve both humans and agents.
+
 
 ## Notes
 
