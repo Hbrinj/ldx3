@@ -88,8 +88,18 @@ By role, **More / About the same / Less** (2026 vs 2025):
 
 - 💭 An Engineering **Director** role explicitly **75% coding** — concrete evidence of the player-coach / leader-through-code shift.
 
+### Closing slide: the source report
+
+- **The LeadDev Engineering Leadership Report 2026** — *"How engineering leadership is evolving, and what it means for the future of the role."* (Sponsored by **Postman**.)
+- All the survey data in this talk is from that report.
+- **Report comes out next week** (early access via pre-register).
+- **Pre-register:** https://bit.ly/eng-leadership-26
+- Closing thought from Scott: *"Engineering roles are changing faster than I've ever seen"* — LeadDev plans more research, talking to more people, to figure it out alongside the audience.
+
 
 ## Questions to Follow Up
 
 
 ## Action Items
+
+- Pre-register for **The LeadDev Engineering Leadership Report 2026** — https://bit.ly/eng-leadership-26 (out next week).
