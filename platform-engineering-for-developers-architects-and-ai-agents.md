@@ -4,6 +4,9 @@
 
 ## Speaker / Session
 
+- **Speaker:** Daniel Bryant
+- **Org:** Syntasso
+
 
 ## Key Takeaways
 
