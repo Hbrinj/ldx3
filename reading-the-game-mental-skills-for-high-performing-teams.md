@@ -39,6 +39,8 @@
 - **Are you fully present?**
 - **Lead by example.**
 - **Let yourself ask people for help.**
+- **Do you have a way to reset yourself** when you're not feeling your best?
+- **What's your mental skills game plan?**
 
 
 ## Questions to Follow Up
