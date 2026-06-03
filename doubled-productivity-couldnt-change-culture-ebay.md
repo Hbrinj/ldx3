@@ -15,6 +15,7 @@
 - The transformation playbook that worked: **DevOps fundamentals** (CI, automated testing, streamlined process), **platform↔product partnership**, evangelists surfacing real problems, **friction as input / DORA as output**, PDCA, modularising the app to the org (Conway's law).
 - **Change must be top-down, bottom-up AND middle-out** — Randy underestimated the need for **peer-exec buy-in**, which ultimately cost him his job.
 - Hard lesson: **route around resistance** rather than appearing to threaten; **legacy execs are masters at survival.**
+- 💭 *Nuance (from post-talk research): the Velocity initiative spanned eBay's **~4,500 services** and is framed in public write-ups as an **ongoing/continued success**, not purely a cautionary tale. The "couldn't change culture" angle is Randy's **personal/leadership lens** layered on top of a genuine engineering win.*
 
 
 ## Notes
