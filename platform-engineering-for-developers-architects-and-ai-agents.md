@@ -77,6 +77,7 @@
   - **App Choreography is putting a lot of pressure on the other layers** (platform + infra).
 - Recurring framing: he keeps referring to things as a **socio-technical system** (it's people + tech, not just tech).
 - 💭 *My thought: feels like we're standardising on how we build platforms.*
+- **Each team / group of teams must own their flow of value** — not just the application or the infrastructure layer.
 
 ## Questions to Follow Up
 
