@@ -35,6 +35,7 @@
 - **Automated testing.**
 - **Streamlined team processes** — code reviews and manual signoffs.
 - Some of their most meaningful changes: **produce a library** etc., **instead of trying to make service changes that other teams had to test**.
+- **Platform and product engineering teams worked together.**
 
 
 ## Questions to Follow Up
