@@ -41,6 +41,11 @@
   - Fix: used a **team of evangelists** sent out to each area to **bring back problems to solve**.
   - Ran a **weekly "team of teams" meeting** that enabled **natural but deliberate collaboration**.
 
+### Measurement
+
+- **DORA metrics were the output; developer friction was the input.**
+- **Dashboards for every team, app, and org.**
+
 
 ## Questions to Follow Up
 
