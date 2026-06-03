@@ -90,6 +90,8 @@
 | Failure leads to scapegoating | Failure leads to justice | Failure leads to inquiry |
 | Novelty crushed | Novelty leads to problems | Novelty implemented |
 
+- **No real autonomy for teams or individuals.**
+
 
 ## Questions to Follow Up
 
