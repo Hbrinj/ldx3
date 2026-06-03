@@ -75,6 +75,7 @@
   - Folks are **getting a lot of AI to write the infra layer.**
   - 💭 *(Implication: the middle — Platform Orchestration — is the under-served layer.)*
   - **App Choreography is putting a lot of pressure on the other layers** (platform + infra).
+- Recurring framing: he keeps referring to things as a **socio-technical system** (it's people + tech, not just tech).
 
 ## Questions to Follow Up
 
