@@ -54,6 +54,7 @@
 - Platform teams need to **provide everything as a service** to **rapidly and sustainably deliver value to end users.**
 - **Decrease risk** and **automate manual processes.**
 - To **increase efficiency**, you need to **manage and scale your digital platform resources as a fleet.**
+- Think about **platform metrics** — e.g. **how long does it take you to create and offer a new platform capability?**
 
 ## Questions to Follow Up
 
