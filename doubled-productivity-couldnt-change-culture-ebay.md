@@ -113,6 +113,11 @@
 
 - 💭 **Why Randy was fired:** he **called out that waterfall setup**, and as a result was **let go** — bad culture.
 
+### Lessons / reflections
+
+- **Successful change is top-down, bottom-up, AND middle-out.**
+  - He **should have gotten more buy-in from his peers** — which he **didn't foresee being the problem.**
+
 
 ## Questions to Follow Up
 
