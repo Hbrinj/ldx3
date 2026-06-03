@@ -69,6 +69,10 @@
   - **Example of user revolt:** adding **search term correction** — e.g. a seller had misspelled "iphone" as "ifone."
     - Sellers would **buy these cheap** (mispriced because they're hard to find), **rename them, and resell**.
     - The correction would **disrupt that micro business** — hence the revolt.
+- They had **centralised waterfall planning** — work can only happen if it's **approved by the executive team.**
+  - Work must be **big enough to reach the executive team.**
+  - **Smaller projects would need to be tacked on.**
+    - 💭 *C1 seems to have this same problem.*
 
 
 ## Questions to Follow Up
