@@ -59,6 +59,13 @@
 - They **modularized their app to align to the org structure** (Conway's law).
 - Built **domain mini apps.**
 
+### Why did velocity not save the company?
+
+- **eBay suffers from the unwillingness to disrupt their historical business model.**
+- **Competitors disrupt or arbitrage.**
+- The company is **highly risk averse.**
+- **Every user-facing change was met with near revolt** — the **"seller straightjacket."**
+
 
 ## Questions to Follow Up
 
