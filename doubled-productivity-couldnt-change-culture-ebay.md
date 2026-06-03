@@ -19,6 +19,14 @@
 - The **US economy grew more than eBay's ecommerce** business did.
   - The **economy grew 6x** in real money, while **eBay grew 0.91x**.
 
+### The productivity wins (DORA-style metrics)
+
+- **Lead time for change: 10 days** — 💭 *better than us!*
+- **Features and bug fixes: doubled (2x).**
+- **Deployment frequency: 10x.**
+- **Change failure rate: improved 3x.**
+- **Time to recover: improved 3x.**
+
 
 ## Questions to Follow Up
 
