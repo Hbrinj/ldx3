@@ -45,6 +45,13 @@
   - It **must be practised.**
   - It **turns uncertainty into a routine.**
 
+### Slide: "What's a mental skills game plan"
+
+- **Visualise:** see yourself succeeding before it happens.
+- **Self-talk:** replace doubt with a simple, repeatable message.
+- **Recognise & reset:** notice negative patterns → pause → refocus.
+- 💭 Example she gave: **Chloe Kelly** visualising and standing very, very still before her performance, then using self-talk.
+
 
 ## Questions to Follow Up
 
