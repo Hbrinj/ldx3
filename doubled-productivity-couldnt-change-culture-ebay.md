@@ -66,6 +66,9 @@
 - The company is **highly risk averse.**
 - **Every user-facing change was met with near revolt** — the **"seller straightjacket."**
 - When you've been a **flat business**, the setup **pushes you continually towards risk aversion.**
+  - **Example of user revolt:** adding **search term correction** — e.g. a seller had misspelled "iphone" as "ifone."
+    - Sellers would **buy these cheap** (mispriced because they're hard to find), **rename them, and resell**.
+    - The correction would **disrupt that micro business** — hence the revolt.
 
 
 ## Questions to Follow Up
