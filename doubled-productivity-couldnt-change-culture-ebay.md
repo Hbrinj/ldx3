@@ -52,6 +52,7 @@
 - Division of labor: **platform teams produce tools, product engineers consume tools.**
 - **Made it safe to say you were struggling.**
 - **Executive support allowed them to keep moving.**
+- They **partnered with each of the areas that individuals felt were slow.**
 
 
 ## Questions to Follow Up
