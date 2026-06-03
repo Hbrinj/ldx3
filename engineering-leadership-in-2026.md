@@ -31,6 +31,17 @@
 - Quote on slide: *"Three layers between intern and CEO."* — **Mark Zuckerberg, Meta internal memo, 2025.**
 - Legend distinguishes **Human IC · AI agent · Lead/staff IC.**
 
+### Slide (LeadDev survey data): "If the number of managers has decreased, which levels were significantly impacted?"
+
+| Level | 2024 | 2025 | 2026 |
+| --- | --- | --- | --- |
+| **Upper management** (CTO, VP, Head of Eng) | 13% | 18% | 23% |
+| **Middle management** (Director, managers of managers) | 43% | 56% | 65% |
+| **Line management** (Engineering Manager, Team Lead) | 42% | 67% | 59% |
+
+- 💭 Takeaway from the data: **engineering managers get squashed into "leads"** who are **part coordinator, part contributor**, and **underneath are ICs doing the code generation.**
+- This is what they're seeing in the survey data (any blue-background slide = "stuff we found out").
+
 
 ## Questions to Follow Up
 
