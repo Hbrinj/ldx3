@@ -74,6 +74,7 @@
   - A lot of orgs are **spending time in the App Choreography layer.**
   - Folks are **getting a lot of AI to write the infra layer.**
   - 💭 *(Implication: the middle — Platform Orchestration — is the under-served layer.)*
+  - **App Choreography is putting a lot of pressure on the other layers** (platform + infra).
 
 ## Questions to Follow Up
 
