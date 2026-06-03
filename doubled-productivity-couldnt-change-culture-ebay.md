@@ -73,6 +73,7 @@
   - Work must be **big enough to reach the executive team.**
   - **Smaller projects would need to be tacked on.**
     - 💭 *C1 seems to have this same problem.*
+- They became a **feature factory** — in a flat business you **don't want to tie your bonus to growth** when **execution on projects is the preference.**
 
 
 ## Questions to Follow Up
