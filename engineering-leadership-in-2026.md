@@ -80,6 +80,14 @@ By role, **More / About the same / Less** (2026 vs 2025):
 - 💭 **Last year managers were doing less technical work** — then **the tools improved**, and they've had a **jump back into technical work.**
 - **1 in 3 managers are considering the transition back to IC.**
 
+### Slide: real job ad (Docplanner — Engineering Director) — "this really hammers it home"
+
+> Docplanner is fostering the reinvention of product development, specifically transforming how we approach coding with AI. We are looking for an **Engineering Director** who will lead this transformation from the front lines, while owning the Patient Engagement area.
+>
+> **This isn't a traditional management role.** It's designed for a leader who **remains deeply hands-on in the code** and pioneers AI-enabled development practices, with the role intentionally weighted toward **Lead Through Code (≈75%)** and **Drive Transformation & Technical Leadership (≈25%)**.
+
+- 💭 An Engineering **Director** role explicitly **75% coding** — concrete evidence of the player-coach / leader-through-code shift.
+
 
 ## Questions to Follow Up
 
