@@ -41,6 +41,9 @@
 
 - 💭 Takeaway from the data: **engineering managers get squashed into "leads"** who are **part coordinator, part contributor**, and **underneath are ICs doing the code generation.**
 - This is what they're seeing in the survey data (any blue-background slide = "stuff we found out").
+- **Lots of high-profile CEOs being openly hostile to middle management.**
+- Where they're re-architecting, they're **moving away from pure managers to "player-coaches."**
+- Target: **5 layers max.**
 
 
 ## Questions to Follow Up
