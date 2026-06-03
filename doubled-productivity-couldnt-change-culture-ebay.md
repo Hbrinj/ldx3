@@ -36,6 +36,8 @@
 - **Streamlined team processes** — code reviews and manual signoffs.
 - Some of their most meaningful changes: **produce a library** etc., **instead of trying to make service changes that other teams had to test**.
 - **Platform and product engineering teams worked together.**
+  - Problem they hit: the **platform team would produce new versions, but product engineering wouldn't adopt** them.
+  - Turned out the **updates didn't solve product engineering's real problems**.
 
 
 ## Questions to Follow Up
