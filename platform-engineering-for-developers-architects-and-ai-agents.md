@@ -79,6 +79,7 @@
 - 💭 *My thought: feels like we're standardising on how we build platforms.*
 - **Each team / group of teams must own their flow of value** — not just the application or the infrastructure layer.
 - **"You build it, you run it"** gets hard at scale: with **~50 teams**, management and upkeep become difficult.
+- Enterprises are **using AI to run side quests**, but **operationalising and maintaining** that work is difficult.
 
 ## Questions to Follow Up
 
