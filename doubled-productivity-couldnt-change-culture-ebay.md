@@ -27,8 +27,19 @@
 - **Change failure rate: improved 3x.**
 - **Time to recover: improved 3x.**
 
+### How they did it
+
+- They executed the **DevOps playbook**.
+  - ❓ *Follow up: research this — the DevOps playbook.*
+- Spent a lot of time on **CI**.
+- **Automated testing.**
+- **Streamlined team processes** — code reviews and manual signoffs.
+- Some of their most meaningful changes: **produce a library** etc., **instead of trying to make service changes that other teams had to test**.
+
 
 ## Questions to Follow Up
+
+- Research the **DevOps playbook** that eBay executed.
 
 
 ## Action Items
