@@ -25,6 +25,7 @@
 - This talk's lineage started **4 years ago** — from **Kubernetes**, then **PaaS** — but **what next?**
 - The recurring question: **how much do I build myself, buy, or blend?**
 - **Cognitive load increased** as the **tooling exploded** and became **more complex.**
+- **Platform and infrastructure exploded** — lots of **baggage.**
 
 
 ## Questions to Follow Up
