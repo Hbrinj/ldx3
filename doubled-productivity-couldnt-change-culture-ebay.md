@@ -16,6 +16,7 @@
 - Premise: they **doubled engineer productivity** at eBay, but **couldn't change the culture**.
 - This is Randy's **proudest achievement** — but it also **got him fired**, due to the inability to change the **pathological culture**.
 - Context: **eBay has been a flat business** over the last few years.
+- The **US economy grew more than eBay's ecommerce** business did.
 
 
 ## Questions to Follow Up
