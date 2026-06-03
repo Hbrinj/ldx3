@@ -21,6 +21,10 @@
 - Read a lot of **sports psychology.**
 - Cathy started to **notice the mental state of her team.**
 - **Feedback didn't come directly after** the event — but rather **after a bit of time had passed.**
+- **Allowed time and space for individual questions.**
+- **Be prepared to explain things more than once.**
+- Explain that the **domain knowledge is not always understood.**
+- Had to **accept what she couldn't control** — **focus on what you can influence.**
 
 
 ## Questions to Follow Up
