@@ -26,6 +26,9 @@
 - The recurring question: **how much do I build myself, buy, or blend?**
 - **Cognitive load increased** as the **tooling exploded** and became **more complex.**
 - **Platform and infrastructure exploded** — lots of **baggage.**
+- **How do I manage my platform and update it?**
+  - Folks are **moving away from the front ends and going direct to MCPs.**
+  - That means **you're creating problems without considerations for the platform.**
 
 
 ## Questions to Follow Up
