@@ -17,6 +17,8 @@
 - Tore her **ACL** and **couldn't continue playing football.**
 - Still **went along to the matches.**
 - Started contributing by **timing the substitutions.**
+- **Good teams need more than individual skills** — they need to **adapt to each other.**
+- Read a lot of **sports psychology.**
 
 
 ## Questions to Follow Up
