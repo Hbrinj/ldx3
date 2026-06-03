@@ -70,6 +70,10 @@
 
 - Source: https://syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure
 - 💭 The **three tiers are his favourites**: Application Choreography (software dev lifecycle) ↔ Platform Orchestration (platform lifecycle) ↔ Infrastructure Orchestration (infrastructure lifecycle).
+- Where the activity is today:
+  - A lot of orgs are **spending time in the App Choreography layer.**
+  - Folks are **getting a lot of AI to write the infra layer.**
+  - 💭 *(Implication: the middle — Platform Orchestration — is the under-served layer.)*
 
 ## Questions to Follow Up
 
