@@ -65,6 +65,7 @@
 - **Competitors disrupt or arbitrage.**
 - The company is **highly risk averse.**
 - **Every user-facing change was met with near revolt** — the **"seller straightjacket."**
+- When you've been a **flat business**, the setup **pushes you continually towards risk aversion.**
 
 
 ## Questions to Follow Up
