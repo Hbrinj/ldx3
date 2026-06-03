@@ -95,6 +95,10 @@
 - Diagram shows **flow of change** across stream-aligned teams, supported by a platform team underneath (X-as-a-Service).
 - Source: https://teamtopologies.com/key-concepts
 
+### Side note: AI agents
+
+- You need to create **bounded agents** — **data-limited** and **context-limited.**
+
 ## Questions to Follow Up
 
 
