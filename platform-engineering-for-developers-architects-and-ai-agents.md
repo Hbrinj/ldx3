@@ -81,6 +81,20 @@
 - **"You build it, you run it"** gets hard at scale: with **~50 teams**, management and upkeep become difficult.
 - Enterprises are **using AI to run side quests**, but **operationalising and maintaining** that work is difficult.
 
+### Slide: Team Topologies
+
+- **4 fundamental topologies:**
+  - **Stream-aligned team**
+  - **Enabling team**
+  - **Complicated Subsystem team**
+  - **Platform team**
+- **3 core interaction modes:**
+  - **X-as-a-Service** (highlighted on the slide)
+  - **Facilitating**
+  - **Collaboration**
+- Diagram shows **flow of change** across stream-aligned teams, supported by a platform team underneath (X-as-a-Service).
+- Source: https://teamtopologies.com/key-concepts
+
 ## Questions to Follow Up
 
 
