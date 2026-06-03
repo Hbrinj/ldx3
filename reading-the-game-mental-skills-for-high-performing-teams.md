@@ -4,11 +4,19 @@
 
 ## Speaker / Session
 
+- **Speaker:** Cathy
+
 
 ## Key Takeaways
 
 
 ## Notes
+
+### Cathy's journey from player to coach
+
+- Tore her **ACL** and **couldn't continue playing football.**
+- Still **went along to the matches.**
+- Started contributing by **timing the substitutions.**
 
 
 ## Questions to Follow Up
