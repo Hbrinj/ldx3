@@ -31,6 +31,17 @@
   - That means **you're creating problems without considerations for the platform.**
 - **Software creation is now faster than organisations can safely operationalise it.**
 
+### Slide: "Gartner: What is platform engineering?"
+
+> "Platform engineering **improves developer experience** and productivity by providing **self-service capabilities** with **automated infrastructure operations**.
+>
+> It is trending because of its promise to optimise the developer experience and accelerate product teams' delivery of customer value."
+
+- Gartner "Diagram of Platform Engineering" layers (top → bottom):
+  - **Product and Service Teams** (consumers) → via a **Developer Portal**.
+  - **Digital Platform**: Reusable Components · Tools · Platform Services · Knowledge — built by a **Platform Team**.
+  - **Infrastructure Platform** sitting over **Infrastructure Complexity**.
+- Source: https://www.gartner.com/en/articles/what-is-platform-engineering (slide branded **Kratix.io**).
 
 ## Questions to Follow Up
 
