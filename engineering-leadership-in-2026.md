@@ -78,6 +78,7 @@ By role, **More / About the same / Less** (2026 vs 2025):
 - 💭 **As scope increased, so did hours.** Biggest jump: **Advanced Engineers** (Staff/Principal) — "More" leapt from **28% → 53%** YoY.
 - (Some bars were blurry; values marked `~` are estimated.)
 - 💭 **Last year managers were doing less technical work** — then **the tools improved**, and they've had a **jump back into technical work.**
+- **1 in 3 managers are considering the transition back to IC.**
 
 
 ## Questions to Follow Up
