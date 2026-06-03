@@ -50,6 +50,8 @@
   - Example conversation they had: *"I see you're deploying once or twice every month — what's going on?"*
   - Mantra: **"Your impediments are my backlog."**
 - Division of labor: **platform teams produce tools, product engineers consume tools.**
+- **Made it safe to say you were struggling.**
+- **Executive support allowed them to keep moving.**
 
 
 ## Questions to Follow Up
