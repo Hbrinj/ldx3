@@ -43,6 +43,12 @@
   - **Infrastructure Platform** sitting over **Infrastructure Complexity**.
 - Source: https://www.gartner.com/en/articles/what-is-platform-engineering (slide branded **Kratix.io**).
 
+### Slide: "What is a platform, anyway?"
+
+> "A digital platform is a **foundation of self-service APIs, tools, services, knowledge and support** which are arranged as a **compelling internal product**. Autonomous delivery teams can make use of the platform to **deliver product features at a higher pace, with reduced coordination**."
+>
+> — **Evan Bottcher**, https://martinfowler.com/articles/talk-about-platforms.html
+
 ## Questions to Follow Up
 
 
