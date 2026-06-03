@@ -56,6 +56,8 @@
 - Started with a **small group**, then **automated things that ended up helping everyone.**
 - They **regularly deployed every app.**
 - They created a **patch pipeline to update libraries.**
+- They **modularized their app to align to the org structure** (Conway's law).
+- Built **domain mini apps.**
 
 
 ## Questions to Follow Up
