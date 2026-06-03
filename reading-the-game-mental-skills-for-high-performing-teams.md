@@ -38,6 +38,7 @@
 - **Are you seeing the signals** — for you and your team?
 - **Are you fully present?**
 - **Lead by example.**
+- **Let yourself ask people for help.**
 
 
 ## Questions to Follow Up
