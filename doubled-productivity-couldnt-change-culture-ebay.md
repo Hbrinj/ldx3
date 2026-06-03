@@ -92,6 +92,27 @@
 
 - **No real autonomy for teams or individuals.**
 
+### Slide: VP "X"
+
+**Culture of Terror**
+- Engineers in constant fear of making any mistake.
+- Threatened high performers with poor reviews if they left the team.
+- Exceptional engineers and leaders became internal refugees or left the company entirely.
+
+**Empire Building**
+- More than 700 employees and contractors to build Buyer Experience.
+
+**Faux Agile**
+- Multi-year projects, regularly delayed.
+- "Planning Sprints", "Design Sprints", "Development Sprints", "QA Sprints"…
+- Personally approved all deployments for more than a year.
+
+**Karma in Action**
+- Maneuvered behind the scenes to fire the Chief Architect in 2022.
+- Fired by CPO 6 months later.
+
+- 💭 **Why Randy was fired:** he **called out that waterfall setup**, and as a result was **let go** — bad culture.
+
 
 ## Questions to Follow Up
 
