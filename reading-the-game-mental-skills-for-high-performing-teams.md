@@ -33,6 +33,12 @@
 - **You can't always be there** — you need to **help them work without you there.**
   - Think about their **user manuals / "manual of me"** (how to work with each person).
 
+### Challenges for us as managers
+
+- **Are you seeing the signals** — for you and your team?
+- **Are you fully present?**
+- **Lead by example.**
+
 
 ## Questions to Follow Up
 
