@@ -118,6 +118,17 @@
 - **Successful change is top-down, bottom-up, AND middle-out.**
   - He **should have gotten more buy-in from his peers** — which he **didn't foresee being the problem.**
 
+### Slide: "What I Learned" (with a "HOPE" Scrabble-tiles image)
+
+1. **Top-Down, Bottom-Up, Middle-Out**
+   - Engage peer execs as allies from the start.
+2. **Route Around Resistance**
+   - Better to bypass than to appear to threaten.
+   - Legacy execs are masters at survival.
+3. **See the Whole Board**
+   - Demonstrate results and credibility with Software Delivery, then tackle Planning.
+4. **Easier to Transform a Malleable Organization**
+
 
 ## Questions to Follow Up
 
