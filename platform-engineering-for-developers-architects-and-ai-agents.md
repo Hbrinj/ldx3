@@ -49,6 +49,12 @@
 >
 > — **Evan Bottcher**, https://martinfowler.com/articles/talk-about-platforms.html
 
+### Why platforms?
+
+- Platform teams need to **provide everything as a service** to **rapidly and sustainably deliver value to end users.**
+- **Decrease risk** and **automate manual processes.**
+- To **increase efficiency**, you need to **manage and scale your digital platform resources as a fleet.**
+
 ## Questions to Follow Up
 
 
