@@ -27,6 +27,11 @@
 - Had to **accept what she couldn't control** — **focus on what you can influence.**
 - **Accept people will have a bad day** — but **ask what they need and how you can help.**
 - **Happy teams are effective teams.**
+- **Actively encourage strengths** — focus on **trust**, and **remove negative reinforcements** (e.g. people saying "sorry" just for trying something).
+- **Remove the fear of mistakes.**
+- **Help connect people.**
+- **You can't always be there** — you need to **help them work without you there.**
+  - Think about their **user manuals / "manual of me"** (how to work with each person).
 
 
 ## Questions to Follow Up
