@@ -51,6 +51,7 @@
 - **Self-talk:** replace doubt with a simple, repeatable message.
 - **Recognise & reset:** notice negative patterns → pause → refocus.
 - 💭 Example she gave: **Chloe Kelly** visualising and standing very, very still before her performance, then using self-talk.
+- In engineering: **spend less time looking at the work and more time looking at the people.**
 
 
 ## Questions to Follow Up
