@@ -10,6 +10,12 @@
 
 ## Key Takeaways
 
+- Randy and team **doubled engineering productivity** at eBay (2x features/bug fixes, 10x deploy frequency, 3x change failure rate, 3x recovery time, 10-day lead time) — but it **didn't save the business**, which stayed flat.
+- **Velocity isn't enough**: a **pathological, risk-averse culture** (Westrum) and **centralised waterfall planning** neutralised the engineering gains.
+- The transformation playbook that worked: **DevOps fundamentals** (CI, automated testing, streamlined process), **platform↔product partnership**, evangelists surfacing real problems, **friction as input / DORA as output**, PDCA, modularising the app to the org (Conway's law).
+- **Change must be top-down, bottom-up AND middle-out** — Randy underestimated the need for **peer-exec buy-in**, which ultimately cost him his job.
+- Hard lesson: **route around resistance** rather than appearing to threaten; **legacy execs are masters at survival.**
+
 
 ## Notes
 
