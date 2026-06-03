@@ -20,6 +20,10 @@
 - Three layers: **App · Platform (capabilities) · Infrastructure.**
 - **Build platforms to maximise the flow of value** — do that and you'll **do well for both humans and agents.**
 
+### Framing
+
+- This talk's lineage started **4 years ago** — from **Kubernetes**, then **PaaS** — but **what next?**
+
 
 ## Questions to Follow Up
 
