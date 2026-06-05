@@ -1,8 +1,9 @@
-# State of AI in Software Development
-
-> Conference talk notes — 2026-06-02
-
-## Speaker / Session
+---
+title: "State of AI in Software Development"
+date: 2026-06-02
+speaker: "DX — AI-Assisted Engineering Q1 Impact Report"
+summary: "Insights across 400 orgs (50–10,000 engineers): 27.4% of code now AI-authored (up 8% from Q4), daily AI users ship 60% more PRs, dev ramp-up time nearly halved (~80 → ~30 days), and AI-readiness scorecards predict who absorbs the gains."
+---
 
 - **Source report:** DX — AI-Assisted Engineering Q1 Impact Report
   - https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf
@@ -55,4 +56,3 @@ Characteristics of an AI-ready codebase:
 
 
 ## Action Items
-

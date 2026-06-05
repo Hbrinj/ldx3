@@ -1,0 +1,42 @@
+title: "ldx3 — Talks & Vendors"
+description: "Conference talk notes and vendors-to-explore from LDX3."
+url: "https://Houms.github.io"
+baseurl: "/ldx3"
+theme: jekyll-theme-tactile
+
+collections:
+  talks:
+    output: true
+    permalink: /talks/:name/
+  vendors:
+    output: true
+    permalink: /vendors/:name/
+  reflections:
+    output: true
+    permalink: /reflections/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: vendors
+    values:
+      layout: vendor
+  - scope:
+      path: ""
+      type: reflections
+    values:
+      layout: reflection
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - TODO.md
+  - tasks/
+  - features/
+

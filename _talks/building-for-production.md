@@ -1,17 +1,15 @@
-# Building for Production
-
-> Conference talk notes — 2026-06-02
+---
+title: "Building for Production"
+date: 2026-06-02
+speaker: "Liz Fong (Honeycomb)"
+summary: "AI doesn't change the fundamentals — it amplifies whatever practices you already have; Honeycomb ships ~44% AI-authored changes by leaning harder on platform engineering, fast CI, continuous deployment, and closed-loop observability."
+---
 
 ## TL;DR
 
 Liz Fong (Honeycomb.io) on shipping AI-authored code to production at scale. The headline: **AI doesn't change the fundamentals — it amplifies whatever practices you already have.** Honeycomb now has ~44% of changes AI-authored (vs ~25–30% human), accepting ~20% automatically, without reworking the AI code. They didn't "explode" because they leaned *harder* on platform engineering — fast, AI-legible CI (RWX), continuous deployment of small changes, feature flags, and closed-loop observability that ties production signals back to the PR/agent that shipped them.
 
 It isn't free: ~30% more production incidents and more time spent triaging and reducing slop. The honest concessions — this won't transfer to a regulated bank, and cheap spot-fixes tempt you away from systematic ones (write-cost dropping doesn't drop maintenance-cost). Bottom line: reinvest the new throughput into the platform substrate, not marginal features, and remember "we didn't obviously break anything" isn't success — no one is done yet.
-
-## Speaker / Session
-
-- **Speaker:** Liz Fong
-- **Company:** Honeycomb.io
 
 ## Key Takeaways
 
@@ -84,11 +82,10 @@ It isn't free: ~30% more production incidents and more time spent triaging and r
 
 ## Vendor / Booth Notes
 
-Moved to [vendor-booth-notes.md](vendor-booth-notes.md).
+Moved to [Harness vendor notes]({{ site.baseurl }}{% link _vendors/harness.md %}).
 
 
 ## Action Items
 
 - [ ] Research Harness AI Software Delivery Platform — request demo at www.harness.io/demo
 - [ ] Research Unblocked
-

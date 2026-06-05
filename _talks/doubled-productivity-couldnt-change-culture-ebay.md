@@ -1,12 +1,9 @@
-# We Doubled Engineer Productivity at eBay but Couldn't Change Culture
-
-> Conference talk notes — 2026-06-03
-
-## Speaker / Session
-
-- **Speaker:** Randy Shoup
-- **Org:** eBay
-
+---
+title: "We Doubled Engineer Productivity at eBay but Couldn't Change Culture"
+date: 2026-06-03
+speaker: "Randy Shoup (eBay)"
+summary: "Randy Shoup on doubling eBay engineering productivity via the DevOps playbook — and how a pathological, risk-averse culture with centralised waterfall planning blunted the gains and ultimately cost him his job."
+---
 
 ## Key Takeaways
 
