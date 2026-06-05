@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>We Doubled Engineer Productivity at eBay but Couldn’t Change Culture | ldx3 — Talks &amp; Vendors</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="We Doubled Engineer Productivity at eBay but Couldn’t Change Culture" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Key Takeaways" />
+<meta name="twitter:description" property="og:description" content="Key Takeaways" />
+<link rel="canonical" href="/talks/doubled-productivity-couldnt-change-culture-ebay/" />
+<meta property="og:url" content="/talks/doubled-productivity-couldnt-change-culture-ebay/" />
+<meta property="og:site_name" content="ldx3 — Talks &amp; Vendors" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-03T00:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-03T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="We Doubled Engineer Productivity at eBay but Couldn’t Change Culture" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-03T00:00:00+01:00","datePublished":"2026-06-03T00:00:00+01:00","description":"Key Takeaways","headline":"We Doubled Engineer Productivity at eBay but Couldn’t Change Culture","mainEntityOfPage":{"@type":"WebPage","@id":"/talks/doubled-productivity-couldnt-change-culture-ebay/"},"url":"/talks/doubled-productivity-couldnt-change-culture-ebay/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>We Doubled Engineer Productivity at eBay but Couldn't Change Culture</h1>
+          <h2>Conference talk notes and vendors-to-explore from LDX3.</h2>
+        </header>
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
+          <p><a href="/">&larr; Back to index</a></p>
+<p class="metaline">2026-06-03 &middot; Randy Shoup (eBay)</p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>Randy and team <strong>doubled engineering productivity</strong> at eBay (2x features/bug fixes, 10x deploy frequency, 3x change failure rate, 3x recovery time, 10-day lead time) — but it <strong>didn’t save the business</strong>, which stayed flat.</li>
+  <li><strong>Velocity isn’t enough</strong>: a <strong>pathological, risk-averse culture</strong> (Westrum) and <strong>centralised waterfall planning</strong> neutralised the engineering gains.</li>
+  <li>The transformation playbook that worked: <strong>DevOps fundamentals</strong> (CI, automated testing, streamlined process), <strong>platform↔product partnership</strong>, evangelists surfacing real problems, <strong>friction as input / DORA as output</strong>, PDCA, modularising the app to the org (Conway’s law).</li>
+  <li><strong>Change must be top-down, bottom-up AND middle-out</strong> — Randy underestimated the need for <strong>peer-exec buy-in</strong>, which ultimately cost him his job.</li>
+  <li>Hard lesson: <strong>route around resistance</strong> rather than appearing to threaten; <strong>legacy execs are masters at survival.</strong></li>
+  <li>💭 <em>Nuance (from post-talk research): the Velocity initiative spanned eBay’s <strong>~4,500 services</strong> and is framed in public write-ups as an <strong>ongoing/continued success</strong>, not purely a cautionary tale. The “couldn’t change culture” angle is Randy’s <strong>personal/leadership lens</strong> layered on top of a genuine engineering win.</em></li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>Premise: they <strong>doubled engineer productivity</strong> at eBay, but <strong>couldn’t change the culture</strong>.</li>
+  <li>This is Randy’s <strong>proudest achievement</strong> — but it also <strong>got him fired</strong>, due to the inability to change the <strong>pathological culture</strong>.</li>
+  <li>Context: <strong>eBay has been a flat business</strong> over the last few years.</li>
+  <li>The <strong>US economy grew more than eBay’s ecommerce</strong> business did.
+    <ul>
+      <li>The <strong>economy grew 6x</strong> in real money, while <strong>eBay grew 0.91x</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="the-productivity-wins-dora-style-metrics">The productivity wins (DORA-style metrics)</h3>
+
+<ul>
+  <li><strong>Lead time for change: 10 days</strong> — 💭 <em>better than us!</em></li>
+  <li><strong>Features and bug fixes: doubled (2x).</strong></li>
+  <li><strong>Deployment frequency: 10x.</strong></li>
+  <li><strong>Change failure rate: improved 3x.</strong></li>
+  <li><strong>Time to recover: improved 3x.</strong></li>
+</ul>
+
+<h3 id="how-they-did-it">How they did it</h3>
+
+<ul>
+  <li>They executed the <strong>DevOps playbook</strong>.
+    <ul>
+      <li>❓ <em>Follow up: research this — the DevOps playbook.</em></li>
+    </ul>
+  </li>
+  <li>Spent a lot of time on <strong>CI</strong>.</li>
+  <li><strong>Automated testing.</strong></li>
+  <li><strong>Streamlined team processes</strong> — code reviews and manual signoffs.</li>
+  <li>Some of their most meaningful changes: <strong>produce a library</strong> etc., <strong>instead of trying to make service changes that other teams had to test</strong>.</li>
+  <li><strong>Platform and product engineering teams worked together.</strong>
+    <ul>
+      <li>Problem they hit: the <strong>platform team would produce new versions, but product engineering wouldn’t adopt</strong> them.</li>
+      <li>Turned out the <strong>updates didn’t solve product engineering’s real problems</strong>.</li>
+      <li>Fix: used a <strong>team of evangelists</strong> sent out to each area to <strong>bring back problems to solve</strong>.</li>
+      <li>Ran a <strong>weekly “team of teams” meeting</strong> that enabled <strong>natural but deliberate collaboration</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="measurement">Measurement</h3>
+
+<ul>
+  <li><strong>DORA metrics were the output; developer friction was the input.</strong></li>
+  <li><strong>Dashboards for every team, app, and org.</strong></li>
+  <li>Ran proper <strong>Plan-Do-Check-Act (PDCA) cycles.</strong></li>
+  <li>They <strong>identified impediments to flow.</strong>
+    <ul>
+      <li>Example conversation they had: <em>“I see you’re deploying once or twice every month — what’s going on?”</em></li>
+      <li>Mantra: <strong>“Your impediments are my backlog.”</strong></li>
+    </ul>
+  </li>
+  <li>Division of labor: <strong>platform teams produce tools, product engineers consume tools.</strong></li>
+  <li><strong>Made it safe to say you were struggling.</strong></li>
+  <li><strong>Executive support allowed them to keep moving.</strong></li>
+  <li>They <strong>partnered with each of the areas that individuals felt were slow.</strong></li>
+  <li>Started with a <strong>small group</strong>, then <strong>automated things that ended up helping everyone.</strong></li>
+  <li>They <strong>regularly deployed every app.</strong></li>
+  <li>They created a <strong>patch pipeline to update libraries.</strong></li>
+  <li>They <strong>modularized their app to align to the org structure</strong> (Conway’s law).</li>
+  <li>Built <strong>domain mini apps.</strong></li>
+</ul>
+
+<h3 id="why-did-velocity-not-save-the-company">Why did velocity not save the company?</h3>
+
+<ul>
+  <li><strong>eBay suffers from the unwillingness to disrupt their historical business model.</strong></li>
+  <li><strong>Competitors disrupt or arbitrage.</strong></li>
+  <li>The company is <strong>highly risk averse.</strong></li>
+  <li><strong>Every user-facing change was met with near revolt</strong> — the <strong>“seller straightjacket.”</strong></li>
+  <li>When you’ve been a <strong>flat business</strong>, the setup <strong>pushes you continually towards risk aversion.</strong>
+    <ul>
+      <li><strong>Example of user revolt:</strong> adding <strong>search term correction</strong> — e.g. a seller had misspelled “iphone” as “ifone.”
+        <ul>
+          <li>Sellers would <strong>buy these cheap</strong> (mispriced because they’re hard to find), <strong>rename them, and resell</strong>.</li>
+          <li>The correction would <strong>disrupt that micro business</strong> — hence the revolt.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>They had <strong>centralised waterfall planning</strong> — work can only happen if it’s <strong>approved by the executive team.</strong>
+    <ul>
+      <li>Work must be <strong>big enough to reach the executive team.</strong></li>
+      <li><strong>Smaller projects would need to be tacked on.</strong>
+        <ul>
+          <li>💭 <em>C1 seems to have this same problem.</em></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>They became a <strong>feature factory</strong> — in a flat business you <strong>don’t want to tie your bonus to growth</strong> when <strong>execution on projects is the preference.</strong></li>
+</ul>
+
+<h3 id="slide-culture-as-foundation">Slide: “Culture as Foundation”</h3>
+
+<ul>
+  <li>Source: <strong><em>Accelerate: The Science of DevOps</em></strong> — Nicole Forsgren, PhD; Jez Humble; Gene Kim.</li>
+  <li>Nicole Forsgren is the primary author. The book defines <strong>three types of culture</strong> (Westrum typology).</li>
+  <li>The speaker placed <strong>eBay in the Pathological</strong> column — <em>“the terrible… pathological fear.”</em></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pathological (Power-Oriented)</th>
+      <th>Bureaucratic (Rule-Oriented)</th>
+      <th>Generative (Performance-Oriented)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low cooperation</td>
+      <td>Modest cooperation</td>
+      <td>High cooperation</td>
+    </tr>
+    <tr>
+      <td>Messengers “shot”</td>
+      <td>Messengers neglected</td>
+      <td>Messengers trained</td>
+    </tr>
+    <tr>
+      <td>Responsibilities shirked</td>
+      <td>Narrow responsibilities</td>
+      <td>Risks are shared</td>
+    </tr>
+    <tr>
+      <td>Bridging discouraged</td>
+      <td>Bridging tolerated</td>
+      <td>Bridging encouraged</td>
+    </tr>
+    <tr>
+      <td>Failure leads to scapegoating</td>
+      <td>Failure leads to justice</td>
+      <td>Failure leads to inquiry</td>
+    </tr>
+    <tr>
+      <td>Novelty crushed</td>
+      <td>Novelty leads to problems</td>
+      <td>Novelty implemented</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>No real autonomy for teams or individuals.</strong></li>
+</ul>
+
+<h3 id="slide-vp-x">Slide: VP “X”</h3>
+
+<p><strong>Culture of Terror</strong></p>
+<ul>
+  <li>Engineers in constant fear of making any mistake.</li>
+  <li>Threatened high performers with poor reviews if they left the team.</li>
+  <li>Exceptional engineers and leaders became internal refugees or left the company entirely.</li>
+</ul>
+
+<p><strong>Empire Building</strong></p>
+<ul>
+  <li>More than 700 employees and contractors to build Buyer Experience.</li>
+</ul>
+
+<p><strong>Faux Agile</strong></p>
+<ul>
+  <li>Multi-year projects, regularly delayed.</li>
+  <li>“Planning Sprints”, “Design Sprints”, “Development Sprints”, “QA Sprints”…</li>
+  <li>Personally approved all deployments for more than a year.</li>
+</ul>
+
+<p><strong>Karma in Action</strong></p>
+<ul>
+  <li>Maneuvered behind the scenes to fire the Chief Architect in 2022.</li>
+  <li>
+    <p>Fired by CPO 6 months later.</p>
+  </li>
+  <li>💭 <strong>Why Randy was fired:</strong> he <strong>called out that waterfall setup</strong>, and as a result was <strong>let go</strong> — bad culture.</li>
+</ul>
+
+<h3 id="lessons--reflections">Lessons / reflections</h3>
+
+<ul>
+  <li><strong>Successful change is top-down, bottom-up, AND middle-out.</strong>
+    <ul>
+      <li>He <strong>should have gotten more buy-in from his peers</strong> — which he <strong>didn’t foresee being the problem.</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="slide-what-i-learned-with-a-hope-scrabble-tiles-image">Slide: “What I Learned” (with a “HOPE” Scrabble-tiles image)</h3>
+
+<ol>
+  <li><strong>Top-Down, Bottom-Up, Middle-Out</strong>
+    <ul>
+      <li>Engage peer execs as allies from the start.</li>
+    </ul>
+  </li>
+  <li><strong>Route Around Resistance</strong>
+    <ul>
+      <li>Better to bypass than to appear to threaten.</li>
+      <li>Legacy execs are masters at survival.</li>
+    </ul>
+  </li>
+  <li><strong>See the Whole Board</strong>
+    <ul>
+      <li>Demonstrate results and credibility with Software Delivery, then tackle Planning.</li>
+    </ul>
+  </li>
+  <li><strong>Easier to Transform a Malleable Organization</strong></li>
+</ol>
+
+<h2 id="background-the-devops-playbook-follow-up-research">Background: the “DevOps playbook” (follow-up research)</h2>
+
+<blockquote>
+  <p>Added after the talk — high-level context on what “the DevOps playbook” refers to.</p>
+</blockquote>
+
+<ul>
+  <li>It’s not a single proprietary doc. Randy means the <strong>well-established DevOps body of practice</strong> popularised by the <strong>DORA research program</strong>, the book <strong><em>Accelerate</em></strong> (Forsgren/Humble/Kim), and <strong><em>The DevOps Handbook</em></strong> (Kim/Humble/Debois/Willis). The eBay “Velocity” initiative was a deliberate application of it.</li>
+  <li><strong>Measure with the four DORA metrics</strong> (the talk’s “output”):
+    <ul>
+      <li>Deployment frequency · Lead time for change · Change failure rate · Time to restore service.</li>
+      <li>Treat <strong>developer friction/impediments as the leading “input”</strong> that moves those outputs.</li>
+    </ul>
+  </li>
+  <li><strong>Core technical capabilities</strong> the playbook pushes:
+    <ul>
+      <li><strong>Continuous integration</strong> + <strong>trunk-based development</strong> (small batches into mainline, not long-lived branches).</li>
+      <li><strong>Comprehensive automated testing</strong> with fast, reliable feedback.</li>
+      <li><strong>Deployment automation / regular deploys of every app</strong>; loosely-coupled architecture so teams ship independently (maps to their library-over-shared-service and “domain mini-apps” moves — Conway’s law).</li>
+    </ul>
+  </li>
+  <li><strong>Organisational / cultural capabilities</strong> (the part eBay couldn’t fully crack):
+    <ul>
+      <li><strong>Generative (Westrum) culture</strong>, psychological safety, <strong>loosely-coupled empowered teams</strong> with real autonomy.</li>
+      <li><strong>Lightweight change approval</strong> instead of centralised, heavyweight (waterfall) sign-off.</li>
+    </ul>
+  </li>
+  <li><strong>How eBay rolled it out:</strong> focused on a <strong>few pilot domains</strong> (e.g. Selling, Search, Ads), specific apps within them, and <strong>platform tracks</strong> (build/CI/staging tooling + engineer education) — then expanded. Randy’s own framing: it doubled productivity but stalled against pathological culture and exec-gated planning.</li>
+  <li><strong>Randy’s public talks on exactly this</strong> (good source material):
+    <ul>
+      <li>“Doubling Engineering Productivity at eBay Through DevOps” (YOW! 2022) — https://www.youtube.com/watch?v=sjc8UZvlWYQ</li>
+      <li>“Platform Engineering: Lessons from the Rise and Fall of eBay Velocity” (InfoQ/QCon) — https://www.infoq.com/presentations/platform-engineering-lessons/</li>
+      <li>IT Revolution: “Driving a Tech-Led Reimagination through DevOps at eBay” — https://itrevolution.com/articles/driving-a-tech-led-reimagination-through-devops-at-ebay-2021/</li>
+      <li>DORA capabilities catalogue — https://dora.dev/capabilities/</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="questions-to-follow-up">Questions to Follow Up</h2>
+
+<ul>
+  <li><del>Research the <strong>DevOps playbook</strong> that eBay executed.</del> ✅ See “Background: the DevOps playbook” above.</li>
+</ul>
+
+<h2 id="action-items">Action Items</h2>
+
+
+        </section>
+
+        <footer>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

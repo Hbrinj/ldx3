@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>State of AI in Software Development | ldx3 — Talks &amp; Vendors</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="State of AI in Software Development" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Source report: DX — AI-Assisted Engineering Q1 Impact Report https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf" />
+<meta name="twitter:description" property="og:description" content="Source report: DX — AI-Assisted Engineering Q1 Impact Report https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf" />
+<link rel="canonical" href="/talks/state-of-ai-in-software-development/" />
+<meta property="og:url" content="/talks/state-of-ai-in-software-development/" />
+<meta property="og:site_name" content="ldx3 — Talks &amp; Vendors" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-02T00:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-02T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="State of AI in Software Development" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-02T00:00:00+01:00","datePublished":"2026-06-02T00:00:00+01:00","description":"Source report: DX — AI-Assisted Engineering Q1 Impact Report https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf","headline":"State of AI in Software Development","mainEntityOfPage":{"@type":"WebPage","@id":"/talks/state-of-ai-in-software-development/"},"url":"/talks/state-of-ai-in-software-development/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>State of AI in Software Development</h1>
+          <h2>Conference talk notes and vendors-to-explore from LDX3.</h2>
+        </header>
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
+          <p><a href="/">&larr; Back to index</a></p>
+<p class="metaline">2026-06-02 &middot; DX — AI-Assisted Engineering Q1 Impact Report</p>
+<ul>
+  <li><strong>Source report:</strong> DX — AI-Assisted Engineering Q1 Impact Report
+    <ul>
+      <li>https://getdx.com/uploads/ai-assisted-engineering-q1-impact-report.pdf</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>The talk’s aim is to <strong>share insights across 400 orgs</strong>.</li>
+  <li>Engineering org sizes range from <strong>50 to 10,000</strong>.</li>
+  <li><strong>27.4% of code is AI-authored</strong> — up <strong>8% from Q4</strong>.</li>
+  <li><strong>Daily AI users are shipping 60% more PRs.</strong></li>
+  <li>Regular users report:
+    <ul>
+      <li><strong>+2.6%</strong> increase in quality metrics</li>
+      <li><strong>+2.2%</strong> in maintainability</li>
+      <li>Change failure rates <strong>down 0.11%</strong></li>
+    </ul>
+  </li>
+  <li><strong>Change confidence is volatile</strong> — varies by company.
+    <ul>
+      <li>💭 <em>My thought: maybe a lot of the negative-leaning companies aren’t considering some of their own org limitations and practices.</em></li>
+    </ul>
+  </li>
+  <li>Some companies are shipping as much as <strong>50% more defects</strong>.</li>
+  <li><strong>Junior engineers use AI the most</strong> — they don’t have as many learned behaviours.</li>
+  <li><strong>Staff engineers use fewer tokens</strong> for the same use case than junior engineers.</li>
+  <li><strong>Traditional enterprises are using more AI</strong> — primarily due to <strong>structured rollouts</strong>.</li>
+  <li><strong>Larger companies use AI more frequently.</strong>
+    <ul>
+      <li>💭 <em>My thought: more code, more complexity, more time savings required.</em></li>
+    </ul>
+  </li>
+  <li>Some engineers are still going through <strong>Shadow AI</strong> instead of the enterprise tools.</li>
+  <li><strong>Rust usage has gone up</strong> — it’s a very structured language.</li>
+  <li><strong>Dev ramp-up time has almost halved</strong> — from <strong>~80 days to ~30 days</strong>.</li>
+  <li><strong>Engineering managers are shipping 4x more code than last quarter.</strong></li>
+  <li><strong>75% of designers and PMs also use AI code assistants.</strong></li>
+  <li>We’re still tackling only the <strong>initial part of the problem</strong> — most of the time isn’t spent on the bottleneck.</li>
+</ul>
+
+<h3 id="slide-increasingly-referred-to-as-ai-readiness">Slide: “Increasingly referred to as AI Readiness…”</h3>
+
+<p>Characteristics of an AI-ready codebase:</p>
+<ul>
+  <li>Clear, accurate, well-structured documentation</li>
+  <li>Data structures with straightforward relations</li>
+  <li>Readable, manageable, modular code</li>
+  <li>Fast, reliable local and CI feedback loops</li>
+  <li>Stable (read: non-flaky) robust test suites</li>
+</ul>
+
+<p><strong>AI Readiness scorecard (tiered checks):</strong></p>
+<ul>
+  <li><strong>Bronze:</strong> Defined owner · AGENT.md exists · README.md exists · Local development docs</li>
+  <li><strong>Silver:</strong> &gt;80% code coverage · Linter configured · Branch protection configured</li>
+  <li><strong>Gold:</strong> Uses feature flags · Secret management configured · API schema documentation</li>
+</ul>
+
+<h2 id="questions-to-follow-up">Questions to Follow Up</h2>
+
+<h2 id="action-items">Action Items</h2>
+
+
+        </section>
+
+        <footer>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents) | ldx3 — Talks &amp; Vendors</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Key Takeaways" />
+<meta name="twitter:description" property="og:description" content="Key Takeaways" />
+<link rel="canonical" href="/talks/platform-engineering-for-developers-architects-and-ai-agents/" />
+<meta property="og:url" content="/talks/platform-engineering-for-developers-architects-and-ai-agents/" />
+<meta property="og:site_name" content="ldx3 — Talks &amp; Vendors" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-03T00:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-03T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-03T00:00:00+01:00","datePublished":"2026-06-03T00:00:00+01:00","description":"Key Takeaways","headline":"Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)","mainEntityOfPage":{"@type":"WebPage","@id":"/talks/platform-engineering-for-developers-architects-and-ai-agents/"},"url":"/talks/platform-engineering-for-developers-architects-and-ai-agents/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)</h1>
+          <h2>Conference talk notes and vendors-to-explore from LDX3.</h2>
+        </header>
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
+          <p><a href="/">&larr; Back to index</a></p>
+<p class="metaline">2026-06-03 &middot; Daniel Bryant (Syntasso)</p>
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li><strong>AI increases the demand for platforms</strong> — software creation now outpaces orgs’ ability to safely operationalise it, and agents going direct to MCPs create work without platform considerations.</li>
+  <li><strong>Platform architecture deserves the same rigour as software architecture.</strong> Model it as three layers: <strong>App Choreography · Platform Orchestration · Infrastructure Orchestration</strong> (each with its own lifecycle, owners, and tooling — per Syntasso’s model).</li>
+  <li><strong>Measure the platform like a product:</strong> time to <strong>offer</strong> a new capability, time to <strong>provision</strong> an instance, and time to <strong>controlled upgrade / compliance</strong> — often months today, which won’t survive agent-driven volume.</li>
+  <li><strong>Manage platform resources as a fleet</strong> — “you build it, you run it” breaks down at ~50 teams; provide everything-as-a-service so teams own their <strong>full flow of value</strong>, not just app or infra.</li>
+  <li>It’s a <strong>socio-technical system</strong> (people + tech). Team Topologies (4 topologies, 3 interaction modes, X-as-a-Service) is the organising lens.</li>
+  <li>For agents specifically: build <strong>bounded agents</strong> — <strong>data-limited and context-limited.</strong></li>
+  <li>North star: <strong>build platforms to maximise the flow of value</strong> and you serve both humans and agents.</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<h3 id="premise">Premise</h3>
+
+<ul>
+  <li><strong>AI increases the demand for platforms.</strong></li>
+  <li><strong>Platform architecture is as important as software architecture.</strong></li>
+  <li>Three layers: <strong>App · Platform (capabilities) · Infrastructure.</strong></li>
+  <li><strong>Build platforms to maximise the flow of value</strong> — do that and you’ll <strong>do well for both humans and agents.</strong></li>
+</ul>
+
+<h3 id="framing">Framing</h3>
+
+<ul>
+  <li>This talk’s lineage started <strong>4 years ago</strong> — from <strong>Kubernetes</strong>, then <strong>PaaS</strong> — but <strong>what next?</strong></li>
+  <li>The recurring question: <strong>how much do I build myself, buy, or blend?</strong></li>
+  <li><strong>Cognitive load increased</strong> as the <strong>tooling exploded</strong> and became <strong>more complex.</strong></li>
+  <li><strong>Platform and infrastructure exploded</strong> — lots of <strong>baggage.</strong></li>
+  <li><strong>How do I manage my platform and update it?</strong>
+    <ul>
+      <li>Folks are <strong>moving away from the front ends and going direct to MCPs.</strong></li>
+      <li>That means <strong>you’re creating problems without considerations for the platform.</strong></li>
+    </ul>
+  </li>
+  <li><strong>Software creation is now faster than organisations can safely operationalise it.</strong></li>
+</ul>
+
+<h3 id="slide-gartner-what-is-platform-engineering">Slide: “Gartner: What is platform engineering?”</h3>
+
+<blockquote>
+  <p>“Platform engineering <strong>improves developer experience</strong> and productivity by providing <strong>self-service capabilities</strong> with <strong>automated infrastructure operations</strong>.</p>
+
+  <p>It is trending because of its promise to optimise the developer experience and accelerate product teams’ delivery of customer value.”</p>
+</blockquote>
+
+<ul>
+  <li>Gartner “Diagram of Platform Engineering” layers (top → bottom):
+    <ul>
+      <li><strong>Product and Service Teams</strong> (consumers) → via a <strong>Developer Portal</strong>.</li>
+      <li><strong>Digital Platform</strong>: Reusable Components · Tools · Platform Services · Knowledge — built by a <strong>Platform Team</strong>.</li>
+      <li><strong>Infrastructure Platform</strong> sitting over <strong>Infrastructure Complexity</strong>.</li>
+    </ul>
+  </li>
+  <li>Source: https://www.gartner.com/en/articles/what-is-platform-engineering (slide branded <strong>Kratix.io</strong>).</li>
+</ul>
+
+<h3 id="slide-what-is-a-platform-anyway">Slide: “What is a platform, anyway?”</h3>
+
+<blockquote>
+  <p>“A digital platform is a <strong>foundation of self-service APIs, tools, services, knowledge and support</strong> which are arranged as a <strong>compelling internal product</strong>. Autonomous delivery teams can make use of the platform to <strong>deliver product features at a higher pace, with reduced coordination</strong>.”</p>
+
+  <p>— <strong>Evan Bottcher</strong>, https://martinfowler.com/articles/talk-about-platforms.html</p>
+</blockquote>
+
+<h3 id="why-platforms">Why platforms?</h3>
+
+<ul>
+  <li>Platform teams need to <strong>provide everything as a service</strong> to <strong>rapidly and sustainably deliver value to end users.</strong></li>
+  <li><strong>Decrease risk</strong> and <strong>automate manual processes.</strong></li>
+  <li>To <strong>increase efficiency</strong>, you need to <strong>manage and scale your digital platform resources as a fleet.</strong></li>
+  <li>Think about <strong>platform metrics</strong> — e.g. <strong>how long does it take you to create and offer a new platform capability?</strong>
+    <ul>
+      <li>Often it’s <strong>months</strong> in many orgs.</li>
+      <li>Companion metric: <strong>how long does it take you to provision an instance of a platform capability?</strong></li>
+      <li>And: <strong>how long does it take to do a controlled upgrade</strong> — i.e. <strong>time to compliance?</strong></li>
+    </ul>
+  </li>
+  <li><strong>AI agents will create more things</strong> — so <strong>what’s your fleet management setup?</strong></li>
+</ul>
+
+<h3 id="slide-platform-architecture--three-tiers-his-favourite-model">Slide: Platform architecture — three tiers (his favourite model)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Why &amp; How?</th>
+      <th>Who?</th>
+      <th>What</th>
+      <th>Example tech</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Application Choreography</strong> (Developer Control Plane)</td>
+      <td>“Code, ship, run” — sustainably deliver observable business value to customers (end users)</td>
+      <td>App developers, Full-stack engineers, DevOps, SREs</td>
+      <td>UI (Portals), CLI, Declarative config — <em>software dev lifecycle</em></td>
+      <td>Backstage; Heroku CLI &amp; Netflix Newt; Score; Radius &amp; KubeVela (OAM)</td>
+    </tr>
+    <tr>
+      <td><strong>Platform Orchestration</strong> (Platform Orchestrator)</td>
+      <td>“Design, enable, optimize” — provide x-as-a-service, process automation, and fleet management to developers</td>
+      <td>Platform engineers, Engineering enablement, DevEx engineers, SREs</td>
+      <td>Platform API — <em>platform lifecycle</em></td>
+      <td>Kratix Promise; Humanitec Resource Definition; Crossplane Compositions; Argo/Flux CRDs</td>
+    </tr>
+    <tr>
+      <td><strong>Infrastructure Orchestration / Composition</strong> (Infrastructure Control Plane)</td>
+      <td>“Plan, build, maintain” — provide infrastructure building blocks for consumption and composition to the platform team</td>
+      <td>Platform engineers, DevOps, Operators, Sysadmins, Infrastructure engineers</td>
+      <td>IaC, CRDs, Bash scripts — <em>infrastructure lifecycle</em></td>
+      <td>Terraform; Crossplane; Ansible; Bash</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Source: https://syntasso.io/post/platform-engineering-orchestrating-applications-platforms-and-infrastructure</li>
+  <li>💭 The <strong>three tiers are his favourites</strong>: Application Choreography (software dev lifecycle) ↔ Platform Orchestration (platform lifecycle) ↔ Infrastructure Orchestration (infrastructure lifecycle).</li>
+  <li>Where the activity is today:
+    <ul>
+      <li>A lot of orgs are <strong>spending time in the App Choreography layer.</strong></li>
+      <li>Folks are <strong>getting a lot of AI to write the infra layer.</strong></li>
+      <li>💭 <em>(Implication: the middle — Platform Orchestration — is the under-served layer.)</em></li>
+      <li><strong>App Choreography is putting a lot of pressure on the other layers</strong> (platform + infra).</li>
+    </ul>
+  </li>
+  <li>Recurring framing: he keeps referring to things as a <strong>socio-technical system</strong> (it’s people + tech, not just tech).</li>
+  <li>💭 <em>My thought: feels like we’re standardising on how we build platforms.</em></li>
+  <li><strong>Each team / group of teams must own their flow of value</strong> — not just the application or the infrastructure layer.</li>
+  <li><strong>“You build it, you run it”</strong> gets hard at scale: with <strong>~50 teams</strong>, management and upkeep become difficult.</li>
+  <li>Enterprises are <strong>using AI to run side quests</strong>, but <strong>operationalising and maintaining</strong> that work is difficult.</li>
+</ul>
+
+<h3 id="slide-team-topologies">Slide: Team Topologies</h3>
+
+<ul>
+  <li><strong>4 fundamental topologies:</strong>
+    <ul>
+      <li><strong>Stream-aligned team</strong></li>
+      <li><strong>Enabling team</strong></li>
+      <li><strong>Complicated Subsystem team</strong></li>
+      <li><strong>Platform team</strong></li>
+    </ul>
+  </li>
+  <li><strong>3 core interaction modes:</strong>
+    <ul>
+      <li><strong>X-as-a-Service</strong> (highlighted on the slide)</li>
+      <li><strong>Facilitating</strong></li>
+      <li><strong>Collaboration</strong></li>
+    </ul>
+  </li>
+  <li>Diagram shows <strong>flow of change</strong> across stream-aligned teams, supported by a platform team underneath (X-as-a-Service).</li>
+  <li>Source: https://teamtopologies.com/key-concepts</li>
+</ul>
+
+<h3 id="side-note-ai-agents">Side note: AI agents</h3>
+
+<ul>
+  <li>You need to create <strong>bounded agents</strong> — <strong>data-limited</strong> and <strong>context-limited.</strong></li>
+</ul>
+
+<h3 id="slide-conclusion">Slide: Conclusion</h3>
+
+<ul>
+  <li><strong>AI increases the demand for platforms.</strong></li>
+  <li><strong>Platform architecture is as important as software architecture.</strong></li>
+  <li><strong>Think three layers:</strong> app, platform (capabilities), infra.</li>
+  <li><strong>Measure platform impact:</strong> time to provision, upgrade, and offering.</li>
+  <li><strong>Build platforms to maximise flow of value.</strong></li>
+</ul>
+
+<h2 id="questions-to-follow-up">Questions to Follow Up</h2>
+
+<h2 id="action-items">Action Items</h2>
+
+
+        </section>
+
+        <footer>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>
