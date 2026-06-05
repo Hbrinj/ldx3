@@ -1,12 +1,9 @@
-# Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)
-
-> Conference talk notes — 2026-06-03
-
-## Speaker / Session
-
-- **Speaker:** Daniel Bryant
-- **Org:** Syntasso
-
+---
+title: "Platform Engineering for Developers, Architects, and the Rest of Us (AI Agents)"
+date: 2026-06-03
+speaker: "Daniel Bryant (Syntasso)"
+summary: "AI increases demand for platforms; treat platform architecture with the same rigour as software architecture across three layers (App Choreography, Platform Orchestration, Infrastructure Orchestration) and manage resources as a fleet to serve humans and bounded agents alike."
+---
 
 ## Key Takeaways
 
