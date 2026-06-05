@@ -2,7 +2,7 @@
 
 A small Jekyll site that turns conference talk notes and vendor-booth notes from LDX3 into readable pages. New entries are added by dropping a single markdown file with YAML front matter into the relevant collection folder; the index page and per-page layouts pick it up automatically on the next build.
 
-**Live site:** <https://Houms.github.io/ldx3/>
+**Live site:** _(to be configured once a host is chosen)_
 
 ## How to add a new talk
 
@@ -19,10 +19,10 @@ A small Jekyll site that turns conference talk notes and vendor-booth notes from
    ```
 
 3. Write the body as Markdown. Do NOT repeat the title as an `# H1`, do NOT add a `## Speakers` section, and do NOT add a blockquote datestamp — the layout renders the title, date, and speaker from front matter. Start the body with content sections like `## Key Takeaways`, `## Notes`, `## Action Items`.
-4. To cross-link to another talk or a vendor entry, use Jekyll's `{% link %}` tag (prefixed with `{{ site.baseurl }}` so it resolves under the project-page URL):
+4. To cross-link to another talk or a vendor entry, use Jekyll's `{% link %}` tag:
 
    ```markdown
-   See [Harness vendor notes]({{ site.baseurl }}{% link _vendors/harness.md %}).
+   See [Harness vendor notes]({% link _vendors/harness.md %}).
    ```
 
    `{% link %}` validates the path at build time — renaming or deleting the target file fails the build loudly instead of leaving a silent 404.
@@ -66,5 +66,5 @@ Reflections are first-person syntheses (your own thinking, not a write-up of som
 
 ```bash
 bundle install                 # once
-bundle exec jekyll serve       # http://localhost:4000/ldx3/
+bundle exec jekyll serve       # http://localhost:4000/
 ```

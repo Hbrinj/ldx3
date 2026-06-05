@@ -82,7 +82,7 @@ It isn't free: ~30% more production incidents and more time spent triaging and r
 
 ## Vendor / Booth Notes
 
-Moved to [Harness vendor notes]({{ site.baseurl }}{% link _vendors/harness.md %}).
+Moved to [Harness vendor notes]({% link _vendors/harness.md %}).
 
 
 ## Action Items

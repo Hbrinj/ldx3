@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="stylesheet" type="text/css" href="/assets/css/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.9.0 -->
+<title>Building for Production | ldx3 — Talks &amp; Vendors</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Building for Production" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TL;DR" />
+<meta name="twitter:description" property="og:description" content="TL;DR" />
+<link rel="canonical" href="/talks/building-for-production/" />
+<meta property="og:url" content="/talks/building-for-production/" />
+<meta property="og:site_name" content="ldx3 — Talks &amp; Vendors" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-02T00:00:00+01:00" />
+<meta property="article:modified_time" content="2026-06-02T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Building for Production" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-02T00:00:00+01:00","datePublished":"2026-06-02T00:00:00+01:00","description":"TL;DR","headline":"Building for Production","mainEntityOfPage":{"@type":"WebPage","@id":"/talks/building-for-production/"},"url":"/talks/building-for-production/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Building for Production</h1>
+          <h2>Conference talk notes and vendors-to-explore from LDX3.</h2>
+        </header>
+        <section id="downloads" class="clearfix">
+          
+	
+        </section>
+        <hr>
+        <section id="main_content">
+          <p><a href="/">&larr; Back to index</a></p>
+<p class="metaline">2026-06-02 &middot; Liz Fong (Honeycomb)</p>
+<h2 id="tldr">TL;DR</h2>
+
+<p>Liz Fong (Honeycomb.io) on shipping AI-authored code to production at scale. The headline: <strong>AI doesn’t change the fundamentals — it amplifies whatever practices you already have.</strong> Honeycomb now has ~44% of changes AI-authored (vs ~25–30% human), accepting ~20% automatically, without reworking the AI code. They didn’t “explode” because they leaned <em>harder</em> on platform engineering — fast, AI-legible CI (RWX), continuous deployment of small changes, feature flags, and closed-loop observability that ties production signals back to the PR/agent that shipped them.</p>
+
+<p>It isn’t free: ~30% more production incidents and more time spent triaging and reducing slop. The honest concessions — this won’t transfer to a regulated bank, and cheap spot-fixes tempt you away from systematic ones (write-cost dropping doesn’t drop maintenance-cost). Bottom line: reinvest the new throughput into the platform substrate, not marginal features, and remember “we didn’t obviously break anything” isn’t success — no one is done yet.</p>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>Not aiming for 100% AI-authored changes — AI augments, doesn’t replace.</li>
+  <li>AI code is shipped as-is — they aren’t reworking it after the fact.</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li><strong>Intercom / Fin</strong> set a bar to <strong>2x their changes into main</strong>.</li>
+  <li>They are accepting about <strong>20% of changes automatically</strong>.</li>
+  <li>Not 100% AI changes.</li>
+  <li>Changed to a <strong>new CI system</strong> — possibly helped them maintain velocity.</li>
+  <li>Roughly <strong>25–30% done by humans</strong>, the next <strong>~44% was AI</strong>.</li>
+  <li>They aren’t reworking the AI code.</li>
+  <li><strong>Swarmio</strong> is roughly matching the raw Git messages — devs may not show “committed by Claude”.</li>
+  <li>Preference seems to be toward <strong>greenfield projects</strong>.</li>
+  <li>Around <strong>Feb 2026</strong> they felt they had more trust — the same developers who used the tool prior started using AI more regularly.</li>
+  <li><strong>So how did they not explode the systems?</strong>
+    <ul>
+      <li><strong>Platform engineering practices</strong> become more important — even more so than before.</li>
+      <li>Companies with dysfunctions are <strong>amplified</strong> by AI, whereas ones with strong platforms are not.</li>
+    </ul>
+  </li>
+  <li><strong>Continuous deployment</strong> becomes even more important — small changes should make it to production more frequently.</li>
+  <li>Their CI is <strong>legible to AI</strong> — they use <strong>RWX</strong>.</li>
+  <li>Your <strong>CI should be faster than your coding session</strong>.</li>
+  <li><strong>Skills and CLAUDE.md</strong> become the substrate that defines how well the AIs perform.</li>
+  <li>Humans should be able to <strong>push back on the PRs</strong> — they should be able to look through the PR and stop it from creating bad PRs.</li>
+  <li>Just because you <strong>can</strong> do it with AI doesn’t mean you <strong>should</strong>.</li>
+  <li>They would pull the <strong>raw customer request from Slack into Linear</strong>, closing the loop entirely with <strong>end-to-end checks</strong>.
+    <ul>
+      <li>Example flow: write the PR → add telemetry → check it in QA → when it ships in the next release, verify the telemetry and software are working <strong>in prod</strong>.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="slide-closed-loop-observability-for-agent-work">Slide: Closed-loop observability for agent work</h3>
+
+<ol>
+  <li><strong>Instrument the shipped code, not just the agent</strong>
+    <ul>
+      <li>Span attributes that link the running code back to the PR and agent session that created it.</li>
+      <li>Not “tokens spent”; rather “this PR shipped Tuesday is the source of Wednesday’s anomaly.”</li>
+    </ul>
+  </li>
+  <li><strong>Production outcomes matter more than agent activity</strong>
+    <ul>
+      <li>Latency, error rate, cost, user behaviour on agent-shipped features.</li>
+      <li>Did it work? What happened to real users?</li>
+    </ul>
+  </li>
+  <li><strong>Closed-loop: production signal feeds the next change</strong>
+    <ul>
+      <li>Cost-per-interaction SLOs that fire back into agent context.</li>
+      <li>Anomalies in BubbleUp auto-converting into review-agent rules.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="costs--trade-offs">Costs / Trade-offs</h3>
+
+<ul>
+  <li>The team is spending <strong>more time triaging production</strong> — they’ve had an <strong>uptick of ~30% in production incidents</strong>.</li>
+  <li>The team also spends more time <strong>reducing slop</strong>, but also uses the LLMs to <strong>clean up tech debt, upgrade versions, etc.</strong></li>
+  <li>AI is enabling folks to carry out <strong>side quests</strong>.</li>
+  <li><strong>Code review</strong> is catching bugs and creating <strong>shared understanding</strong>.</li>
+  <li>They’ve used AI to <strong>build tooling to understand what AI is shipping</strong> — lots of <strong>feature flagging</strong> occurring.</li>
+</ul>
+
+<h3 id="slide-where-the-sceptics-are-right-two-concessions">Slide: Where the sceptics are right (two concessions)</h3>
+
+<ol>
+  <li><strong>Bank-LOB engineering won’t transfer</strong>
+    <ul>
+      <li>“You are not going to radically realign LOB engineering at a bank.”</li>
+      <li>What makes this work at Honeycomb is downstream of cultural conditions that don’t exist at a regulated enterprise.</li>
+    </ul>
+  </li>
+  <li><strong>Spot-fix vs systematic-fix; complexity has a cost</strong>
+    <ul>
+      <li>AI makes spot-fixes so cheap that you keep reaching for them when systematic answers would be better.</li>
+      <li>Write-cost dropping doesn’t make maintenance-cost drop with it.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="slide-three-things-to-take-away">Slide: Three things to take away</h3>
+
+<ol>
+  <li><strong>AI amplifies your existing practices</strong>
+    <ul>
+      <li>Going fast without autonomy, ownership, and feedback loops is enshittification.</li>
+    </ul>
+  </li>
+  <li><strong>Be deliberate about capacity allocation</strong>
+    <ul>
+      <li>Reinvest the new throughput in the platform substrate that lets you absorb more, not in marginal features.</li>
+    </ul>
+  </li>
+  <li><strong>“We didn’t obviously break anything” is not success on its own</strong>
+    <ul>
+      <li>No one in this room is done. Including us.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="questions-to-follow-up">Questions to Follow Up</h2>
+
+<h2 id="vendor--booth-notes">Vendor / Booth Notes</h2>
+
+<p>Moved to <a href="/vendors/harness/">Harness vendor notes</a>.</p>
+
+<h2 id="action-items">Action Items</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Research Harness AI Software Delivery Platform — request demo at www.harness.io/demo</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Research Unblocked</li>
+</ul>
+
+
+        </section>
+
+        <footer>
+        
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>
