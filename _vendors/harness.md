@@ -5,7 +5,7 @@ summary: "AI Software Delivery Platform — best-of-breed modules (CD/CI, IaC, I
 seen_at: "LDX3 2026-06-02"
 ---
 
-> Booth flyer from [Building for Production]({{ site.baseurl }}{% link _talks/building-for-production.md %}) (2026-06-02). "Best-of-breed modules unified by Harness AI." Saved to research further. — www.harness.io/demo
+> Booth flyer from [Building for Production]({% link _talks/building-for-production.md %}) (2026-06-02). "Best-of-breed modules unified by Harness AI." Saved to research further. — www.harness.io/demo
 
 **Modules:**
 - **DevOps for Velocity:** Continuous Delivery, Continuous Integration, Infrastructure as Code, Internal Developer Portal, Database DevOps, Artifact Registry
