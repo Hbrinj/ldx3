@@ -45,6 +45,23 @@ A small Jekyll site that turns conference talk notes and vendor-booth notes from
 
 3. Write the body as Markdown — module breakdown, follow-up questions, anything you want on the vendor's detail page.
 
+## How to add a new reflection
+
+Reflections are first-person syntheses (your own thinking, not a write-up of someone else's talk), so there is no `speaker` field.
+
+1. Create `_reflections/<slug>.md` (slug becomes part of the URL: `/reflections/<slug>/`).
+2. Add this YAML front matter at the top of the file, then your reflection below:
+
+   ```yaml
+   ---
+   title: "<Reflection title>"
+   date: 2026-06-03          # YYYY-MM-DD; controls newest-first ordering on the index
+   summary: "<One-line blurb shown on the index page>"
+   ---
+   ```
+
+3. Write the body as Markdown. As with talks, do NOT repeat the title as an `# H1` and do NOT add a blockquote datestamp — the layout renders the title, date, and summary from front matter.
+
 ## Local preview
 
 ```bash
