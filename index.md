@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "ldx3 — Talks & Vendors"
 description: "Conference talk notes and vendors-to-explore from LDX3."
 ---
