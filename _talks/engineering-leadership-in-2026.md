@@ -1,11 +1,9 @@
-# Engineering Leadership in 2026
-
-> Conference talk notes — 2026-06-03
-
-## Speaker / Session
-
-- **Speaker:** Scott — leader at LeadDev (LDX3 organizers)
-
+---
+title: "Engineering Leadership in 2026"
+date: 2026-06-03
+speaker: "Scott (LeadDev)"
+summary: "The Great Flattening is real but driven as much by pandemic over-hiring as AI; orgs are moving from 5-layer pyramids to 3-layer plateaus, squeezing middle management and pulling leaders back toward hands-on code."
+---
 
 ## Key Takeaways
 
