@@ -1,11 +1,9 @@
-# Reading the Game: Mental Skills for High-Performing Engineering Teams
-
-> Conference talk notes — 2026-06-03
-
-## Speaker / Session
-
-- **Speaker:** Cathy
-
+---
+title: "Reading the Game: Mental Skills for High-Performing Engineering Teams"
+date: 2026-06-03
+speaker: "Cathy"
+summary: "Cathy's player-to-coach journey reframes engineering management through sports psychology — coach the mental state, build for resilience and autonomy, and practise a Visualise / Self-talk / Reset game plan."
+---
 
 ## Key Takeaways
 
