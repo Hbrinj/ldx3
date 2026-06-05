@@ -19,7 +19,7 @@ A small Jekyll site that turns conference talk notes and vendor-booth notes from
    ```
 
 3. Write the body as Markdown. Do NOT repeat the title as an `# H1`, do NOT add a `## Speakers` section, and do NOT add a blockquote datestamp — the layout renders the title, date, and speaker from front matter. Start the body with content sections like `## Key Takeaways`, `## Notes`, `## Action Items`.
-4. To cross-link to another talk or a vendor entry, use Jekyll's `{% link %}` tag. It resolves to the target's URL at build time and breaks the build if the target is renamed:
+4. To cross-link to another talk or a vendor entry, use Jekyll's `{% link %}` tag:
 
    ```markdown
    See [Harness vendor notes]({% link _vendors/harness.md %}).
