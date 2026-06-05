@@ -2,7 +2,7 @@
 
 A small Jekyll site that turns conference talk notes and vendor-booth notes from LDX3 into readable pages. New entries are added by dropping a single markdown file with YAML front matter into the relevant collection folder; the index page and per-page layouts pick it up automatically on the next build.
 
-**Live site:** <https://Houms.github.io/ldx3/>
+**Live site:** _(to be configured once a host is chosen)_
 
 ## How to add a new talk
 
