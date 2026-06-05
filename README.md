@@ -55,7 +55,7 @@ Reflections are first-person syntheses (your own thinking, not a write-up of som
    ```yaml
    ---
    title: "<Reflection title>"
-   date: 2026-06-03          # YYYY-MM-DD; controls newest-first ordering on the index
+   date: 2026-06-02          # YYYY-MM-DD; controls newest-first ordering on the index
    summary: "<One-line blurb shown on the index page>"
    ---
    ```
