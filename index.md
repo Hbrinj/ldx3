@@ -18,6 +18,8 @@ description: "Conference talk notes and vendors-to-explore from LDX3."
 
 {% assign talks_by_date = site.talks | group_by_exp: "talk", "talk.date | date: '%Y-%m-%d'" %}
 {% assign date_groups_sorted = talks_by_date | sort: "name" | reverse %}
+{% assign reflections_by_date = site.reflections | group_by_exp: "r", "r.date | date: '%Y-%m-%d'" %}
+{% assign reflection_date_groups_sorted = reflections_by_date | sort: "name" | reverse %}
 {% assign vendors_sorted = site.vendors | sort: "title" %}
 
 ## Talks
@@ -32,6 +34,22 @@ description: "Conference talk notes and vendors-to-explore from LDX3."
     {{ talk.speaker | escape }}
     <br>
     <em>{{ talk.summary | escape }}</em>
+  </li>
+  {% endfor %}
+{% endfor %}
+</ul>
+
+## Reflections
+
+<ul>
+{% for date_group in reflection_date_groups_sorted %}
+  {% assign items_sorted = date_group.items | sort: "title" %}
+  {% for reflection in items_sorted %}
+  <li>
+    <strong>{{ reflection.date | date: "%Y-%m-%d" }}</strong> &middot;
+    <a href="{{ reflection.url | relative_url }}">{{ reflection.title | escape }}</a>
+    <br>
+    <em>{{ reflection.summary | escape }}</em>
   </li>
   {% endfor %}
 {% endfor %}
