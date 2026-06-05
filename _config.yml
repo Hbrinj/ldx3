@@ -4,6 +4,11 @@ url: ""
 baseurl: ""
 theme: jekyll-theme-tactile
 
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+
 collections:
   talks:
     output: true
